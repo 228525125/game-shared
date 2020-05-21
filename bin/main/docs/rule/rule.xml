@@ -1,0 +1,34 @@
+<rules>
+	<ruleGroup type="org.cx.game.rule.RuleGroup" id="10500001">
+		<ruleList type="java.util.ArrayList" interface="java.util.List" collection="true">
+		
+			<!-- 系统级Rule -->
+			<rule type="org.cx.game.rule.ActivateRule"></rule>
+			<rule type="org.cx.game.rule.AttackRule"></rule>
+			<rule type="org.cx.game.rule.CallRule"></rule>
+			<rule type="org.cx.game.rule.ConjureRule"></rule>
+			<rule type="org.cx.game.rule.DefendRule"></rule>
+			<rule type="org.cx.game.rule.DeathRule"></rule>			
+			<rule type="org.cx.game.rule.MoveRule"></rule>			
+			
+			<!-- 更新Corps的属性值，例如，atk,def等 -->
+			<rule type="org.cx.game.rule.CorpsPropertyUpdateAddBuffRule"></rule>
+			<rule type="org.cx.game.rule.CorpsPropertyUpdateAddSkillRule"></rule>
+			<rule type="org.cx.game.rule.CorpsPropertyUpdatePlaceInRule"></rule>
+			<rule type="org.cx.game.rule.CorpsPropertyUpdateRemoveBuffRule"></rule>
+			<rule type="org.cx.game.rule.CorpsPropertyUpdateTreasureEquipmentPickedRule"></rule>
+			<rule type="org.cx.game.rule.CorpsPropertyUpdateUpgradeRule"></rule>
+		</ruleList>
+	</ruleGroup>
+	
+	<!-- 开始战斗的规则，不同的种族配置不同的兵种 -->
+	<entranceRule>
+		<tag description="人类"  code="171">
+			<corps description="农民"  type="101020001"></corps>
+		</tag>
+		<tag description="精灵" code="182">
+			<corps description="长尾蝎"  type="101030001"></corps>
+			<corps description="纺织娘"  type="101030002"></corps>
+		</tag>
+	</entranceRule>
+</rules>

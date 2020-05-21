@@ -1,0 +1,15 @@
+<spells>
+	<!-- 一些默认值： -->
+	<!-- useItOnFriendOrFoeOrAll：2 -->
+	<!-- cooldown：1 -->
+	<!-- prepare：0 -->
+	<!-- conjureWait：0 -->
+	<spell type="org.cx.game.magic.spell.Zengjiagongji" id="108000001">
+		<parameter>
+			<id type="int">108000001</id>
+			<bout type="int">3</bout>
+			<atk type="int">3</atk>
+		</parameter>
+		<useItOnFriendOrFoeOrAll type="int">1</useItOnFriendOrFoeOrAll>
+	</spell>
+</spells>

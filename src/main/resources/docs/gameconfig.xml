@@ -1,0 +1,11 @@
+<config>
+	<response-format>
+		<format id='1'>
+			<format-name>default</format-name>
+			<format-class>org.cx.game.observer.JsonObserver</format-class>
+		</format>
+	</response-format>
+	<commandsThatDoNotRequireControl><!-- 不需要控制的命令 -->
+		<command-class>org.cx.game.command.ReloadCommand</command-class>
+	</commandsThatDoNotRequireControl>
+</config>

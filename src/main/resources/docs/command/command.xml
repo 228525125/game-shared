@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<game>
+	<commands>
+		<!-- 外部命令 -->
+				
+		<command name='create' class='org.cx.game.card.command.CreateCommand' parameter='request'>
+			<description>创建比赛</description>	
+			<parameter>
+				<option>custom</option><!-- 创建主机名称 -->
+			</parameter>	
+		</command>
+		
+		<command name='join' class='org.cx.game.card.command.JoinCommand' parameter='request'>
+			<description>加入比赛</description>	
+			<parameter>
+				<option>custom</option><!-- 加入主机名称 -->
+			</parameter>	
+		</command>
+		
+		<command name='connect' class='org.cx.game.command.ConnectCommand' parameter='request'>
+			<description>连接</description>	
+			<parameter>
+				<option>custom</option>
+			</parameter>	
+		</command>
+		
+		<command name='ready' class='org.cx.game.command.ReadyCommand' parameter='none'>
+			<description>准备就绪</description>		
+		</command>
+		
+		<command name='deploy' class='org.cx.game.command.DeployCommand' parameter='none'>
+			<description>玩家部署，战斗开始前各自排兵布阵</description>		
+		</command>
+		
+		<command name='go' class='org.cx.game.command.GoCommand' parameter='none'>
+			<description>玩家部署完毕，等待战斗开始</description>		
+		</command>
+		
+		<!-- 内部命令  -->
+		
+		<command name='get' class='org.cx.game.command.GetCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterGetExpression">
+				<option>custom</option>
+			</parameter>	
+		</command>
+		
+		<!-- 给缓存添加一个对象，作为CallCommand的参数，使用是在参数前面加@，例如select ground;set @corps corps 11800810 -->
+		<command name='set' class='org.cx.game.command.SetCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterSetExpression">
+				<option>custom</option>
+			</parameter>
+		</command>
+		
+		<!-- 是set命令的一种变化，bind @corps {playNo:...} 等于 set @corps ... -->
+		<command name='bind' class='org.cx.game.command.BindCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterBindExpression">
+				<option>custom</option>
+			</parameter>
+		</command>
+		
+		<!-- call queryRange @corps query_attack_range; -->
+		<command name='call' class='org.cx.game.command.CallCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterCallExpression">
+				<option>custom</option>
+			</parameter>	
+		</command>
+		
+		<!-- 专用于调用方法的参数类型是 (object ...objects) -->
+		<command name='callps' class='org.cx.game.command.CallParamsCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterCallParamsExpression">
+				<option>custom</option>
+			</parameter>	
+		</command>
+		
+		<command name='select' class='org.cx.game.command.SelectCommand' parameter='request'>
+			<description></description>
+			<parameter expression="org.cx.game.command.expression.InteriorCommandParameterGetExpression">
+				<option>custom</option>
+			</parameter>	
+		</command>
+		<command name='back' class='org.cx.game.command.BackCommand' parameter='none'>
+			<description>退回上次缓存</description>	
+		</command>
+		<command name='clean' class='org.cx.game.command.CleanBufferCommand' parameter='none'>
+			<description>清除命令缓存</description>	
+		</command>
+	</commands>
+</game>

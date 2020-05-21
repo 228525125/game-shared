@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<game>
+	<corps>
+		<!-- 一些默认值： -->
+		<!-- hp：100 -->
+		<!-- energy：3 -->
+		<!-- moveType：141 Move_Type_Walk -->
+		<!-- atk：0 -->
+		<!-- dmg：30800850 -->
+		<!-- attackRange：1 -->
+		<!-- attackMode：115 Attack_Mode_Near -->
+		<!-- mobile：false -->
+		<!-- def：0 -->
+		<!-- speed：100 -->
+		<!-- flee：0 -->
+		<!-- lock：100 -->
+		<!-- level：1 -->
+		<!-- levelLimit：1 -->
+		<!-- star：1 -->
+		<!-- rank：1 -->
+		<!-- hero：false -->
+		
+		<!-- 人类 -->
+		<!-- 英雄 -->
+		<card type="org.cx.game.corps.Corps" id="101012001">
+			<parameter>
+				<id type="int">101012001</id>
+			</parameter>
+			<hero type="bool">true</hero>
+			<hp type="int">100</hp>
+			<atk type="int">4</atk>
+			<def type="int">8</def>
+			<speed type="int">100</speed>
+			<energy type="int">3</energy>
+			<dmg type="int">30800850</dmg>
+			<attackRange type="int">1</attackRange>
+			<moveType type="int">141</moveType>
+			<star type="int">1</star>
+			<level type="int">1</level>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020001"> <!-- 农民 -->
+			<parameter>
+				<id type="int">101020001</id>
+			</parameter>
+			<atk type="int">1</atk>
+			<def type="int">1</def>
+			<empiricValue type="int">80</empiricValue>
+			<rank type="int">1</rank>
+			<skillList type="java.util.ArrayList" interface="java.util.List" collection="true">
+				
+				<skill type="org.cx.game.magic.skill.Ram" factory="org.cx.game.magic.skill.SkillFactory">
+					<factoryMethodParameter>
+						<id type="int">102000011</id>
+					</factoryMethodParameter>
+				</skill>
+				<skill type="org.cx.game.magic.skill.Back" factory="org.cx.game.magic.skill.SkillFactory">
+					<factoryMethodParameter>
+						<id type="int">102000012</id>
+					</factoryMethodParameter>
+				</skill>
+				<skill type="org.cx.game.magic.skill.Bump" factory="org.cx.game.magic.skill.SkillFactory">
+					<factoryMethodParameter>
+						<id type="int">102000009</id>
+					</factoryMethodParameter>
+				</skill>
+				
+				<skill type="org.cx.game.magic.skill.Dive" factory="org.cx.game.magic.skill.SkillFactory">
+					<factoryMethodParameter>
+						<id type="int">102000010</id>
+					</factoryMethodParameter>
+				</skill>
+			</skillList>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020002"> <!-- 弩手 -->
+			<parameter>
+				<id type="int">101020002</id>
+			</parameter>
+			<atk type="int">5</atk>
+			<def type="int">2</def>
+			<dmg type="int">20800860</dmg>
+			<empiricValue type="int">200</empiricValue>
+			<attackRange type="int">4</attackRange>
+			<attackMode type="int">116</attackMode>
+			<rank type="int">2</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020003"> <!-- 护卫 -->
+			<parameter>
+				<id type="int">101020003</id>
+			</parameter>
+			<atk type="int">6</atk>
+			<def type="int">6</def>
+			<empiricValue type="int">320</empiricValue>
+			<rank type="int">3</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020004"> <!-- 矮人牧师 -->
+			<parameter>
+				<id type="int">101020004</id>
+			</parameter>
+			<atk type="int">6</atk>
+			<def type="int">6</def>
+			<empiricValue type="int">400</empiricValue>
+			<rank type="int">4</rank>
+			<!-- 
+			<skillList type="java.util.ArrayList" interface="java.util.List" collection="true">
+				<skill type="org.cx.game.magic.skill.Cure" factory="org.cx.game.magic.skill.SkillFactory">
+					<factoryMethodParameter>
+						<id type="int">10200008</id>
+					</factoryMethodParameter>
+				</skill>
+			</skillList>
+			 -->
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020005"> <!-- 红衣法师 -->
+			<parameter>
+				<id type="int">101020005</id>
+			</parameter>
+			<atk type="int">7</atk>
+			<def type="int">5</def>
+			<empiricValue type="int">300</empiricValue>
+			<attackRange type="int">4</attackRange>
+			<attackMode type="int">116</attackMode>
+			<rank type="int">3</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020006"> <!-- 矮人战士 -->
+			<parameter>
+				<id type="int">101020006</id>
+			</parameter>
+			<atk type="int">2</atk>
+			<def type="int">5</def>
+			<empiricValue type="int">200</empiricValue>
+			<rank type="int">2</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101020007"> <!-- 雇佣兵 -->
+			<parameter>
+				<id type="int">101020007</id>
+			</parameter>
+			<atk type="int">2</atk>
+			<def type="int">2</def>
+			<empiricValue type="int">92</empiricValue>
+			<rank type="int">1</rank>
+		</card>
+		
+		<!-- 森林 -->
+		<!-- 英雄 -->
+		<card type="org.cx.game.corps.Corps" id="101013001">
+			<parameter>
+				<id type="int">101013001</id>
+			</parameter>
+			<hero type="bool">true</hero>
+			<hp type="int">100</hp>
+			<atk type="int">4</atk>
+			<def type="int">8</def>
+			<speed type="int">100</speed>
+			<energy type="int">3</energy>
+			<dmg type="int">30800850</dmg>
+			<attackRange type="int">1</attackRange>
+			<moveType type="int">141</moveType>
+			<star type="int">1</star>
+			<level type="int">1</level>
+		</card>
+		
+		<card type="org.cx.game.corps.Corps" id="101030001">  <!-- 长尾蝎 -->
+			<parameter>
+				<id type="int">101030001</id>
+			</parameter>
+			<hp type="int">90</hp>
+			<atk type="int">2</atk>
+			<def type="int">1</def>
+			<speed type="int">100</speed>
+			<empiricValue type="int">80</empiricValue>
+			<rank type="int">1</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030002">  <!-- 纺织娘 -->
+			<parameter>
+				<id type="int">101030002</id>
+			</parameter>
+			<hp type="int">90</hp>
+			<atk type="int">2</atk>
+			<def type="int">1</def>
+			<speed type="int">130</speed>
+			<empiricValue type="int">90</empiricValue>
+			<rank type="int">1</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030003">  <!-- 斧螳 -->
+			<parameter>
+				<id type="int">101030003</id>
+			</parameter>
+			<atk type="int">4</atk>
+			<def type="int">3</def>
+			<speed type="int">140</speed>
+			<empiricValue type="int">200</empiricValue>
+			<rank type="int">2</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030005">  <!-- 迅猛兽 -->
+			<parameter>
+				<id type="int">101030005</id>
+			</parameter>
+			<atk type="int">4</atk>
+			<def type="int">4</def>
+			<speed type="int">160</speed>
+			<energy type="int">4</energy>
+			<empiricValue type="int">320</empiricValue>
+			<rank type="int">3</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030006">  <!-- 泥浆怪 -->
+			<parameter>
+				<id type="int">101030006</id>
+			</parameter>
+			<atk type="int">3</atk>
+			<def type="int">4</def>
+			<speed type="int">80</speed>
+			<energy type="int">2</energy>
+			<empiricValue type="int">180</empiricValue>
+			<rank type="int">2</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030013">  <!-- 精灵射手 -->
+			<parameter>
+				<id type="int">101030013</id>
+			</parameter>
+			<hp type="int">80</hp>
+			<atk type="int">6</atk>
+			<def type="int">4</def>
+			<speed type="int">130</speed>
+			<empiricValue type="int">320</empiricValue>
+			<attackRange type="int">4</attackRange>
+			<attackMode type="int">116</attackMode>
+			<rank type="int">3</rank>
+		</card>
+		<card type="org.cx.game.corps.Corps" id="101030014">  <!-- 德鲁伊 -->
+			<parameter>
+				<id type="int">101030014</id>
+			</parameter>
+			<atk type="int">8</atk>
+			<def type="int">8</def>
+			<empiricValue type="int">410</empiricValue>
+			<attackRange type="int">4</attackRange>
+			<attackMode type="int">116</attackMode>
+			<rank type="int">4</rank>
+		</card>
+	</corps>
+</game>

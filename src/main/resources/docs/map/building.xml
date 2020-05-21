@@ -1,0 +1,33 @@
+<buildings>
+	<!-- 圣堂 -->
+	<building type="org.cx.game.ground.building.SpatialBuilding" id="506001">
+		<parameter>
+			<id type="int">506001</id>
+		</parameter>
+		<transmissionIsUsable type="bool">true</transmissionIsUsable>
+		<receiveIsUsable type="bool">true</receiveIsUsable>
+	</building>
+
+
+	<building type="org.cx.game.ground.building.SpatialBuilding" id="506001">
+		<parameter>
+			<id type="int">506001</id>
+		</parameter>
+		<transmissionIsUsable type="bool">true</transmissionIsUsable>
+		<receiveIsUsable type="bool">true</receiveIsUsable>
+	</building>
+	<building type="org.cx.game.ground.building.SpatialBuilding" id="506002">
+		<parameter>
+			<id type="int">506002</id>
+		</parameter>
+		<transmissionIsUsable type="bool">true</transmissionIsUsable>
+		<receiveIsUsable type="bool">true</receiveIsUsable>
+	</building>
+	<building type="org.cx.game.ground.building.SpatialBuilding" id="506003">
+		<parameter>
+			<id type="int">506003</id>
+		</parameter>
+		<transmissionIsUsable type="bool">true</transmissionIsUsable>
+		<receiveIsUsable type="bool">true</receiveIsUsable>
+	</building>
+</buildings>

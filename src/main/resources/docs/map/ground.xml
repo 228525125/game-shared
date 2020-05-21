@@ -1,0 +1,234 @@
+<scenes>
+	<scene type="org.cx.game.ground.Ground" id="107001">
+		<description>Unity测试专用图</description>
+		<parameter>
+			<id type="int">107001</id>
+			<name type="str">战斗场景</name>
+			<xBorder type="int">14</xBorder>                                                                                              <!-- 地图边界：x轴最大值 -->
+			<yBorder type="int">9</yBorder>                                                                                              <!-- 地图边界：y轴最大值 -->
+			<imagePath type="str"></imagePath>                                                                                            <!-- 背景图片的路径 -->
+		</parameter>
+		
+		<!-- 阵营 -->
+		<troopList type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<troop type="int">1</troop>
+			<troop type="int">2</troop>
+		</troopList>
+		
+		<entranceMap type="java.util.HashMap" interface="java.util.Map" map="true">
+			<!-- 
+			<map><key type="str">3_3</key><value type="int">1</value></map>
+			<map><key type="str">3_4</key><value type="int">1</value></map>
+			<map><key type="str">4_4</key><value type="int">1</value></map>
+			<map><key type="str">3_5</key><value type="int">1</value></map>
+			<map><key type="str">4_6</key><value type="int">1</value></map>
+			<map><key type="str">3_6</key><value type="int">1</value></map>
+			<map><key type="str">3_7</key><value type="int">1</value></map>
+			
+			<map><key type="str">12_3</key><value type="int">2</value></map>
+			<map><key type="str">12_4</key><value type="int">2</value></map>
+			<map><key type="str">13_4</key><value type="int">2</value></map>
+			<map><key type="str">12_5</key><value type="int">2</value></map>
+			<map><key type="str">12_6</key><value type="int">2</value></map>
+			<map><key type="str">13_6</key><value type="int">2</value></map>
+			<map><key type="str">12_7</key><value type="int">2</value></map>
+			 -->
+			<map><key type="str">6_4</key><value type="int">1</value></map>
+			<map><key type="str">7_4</key><value type="int">1</value></map>
+			<map><key type="str">6_5</key><value type="int">1</value></map>
+			<map><key type="str">6_6</key><value type="int">1</value></map>
+			<map><key type="str">7_6</key><value type="int">1</value></map>
+			
+			<map><key type="str">9_4</key><value type="int">2</value></map>
+			<map><key type="str">10_4</key><value type="int">2</value></map>
+			<map><key type="str">9_5</key><value type="int">2</value></map>
+			<map><key type="str">9_6</key><value type="int">2</value></map>
+			<map><key type="str">10_6</key><value type="int">2</value></map>
+			 
+		</entranceMap>
+		
+		<!-- 地形 -->
+		<landformMap type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="str">7_7</key><value type="int">405</value></map>
+			<map><key type="str">8_7</key><value type="int">405</value></map>
+			<map><key type="str">7_8</key><value type="int">405</value></map>
+			<map><key type="str">8_8</key><value type="int">405</value></map>
+			<map><key type="str">9_8</key><value type="int">405</value></map>
+			<map><key type="str">6_9</key><value type="int">405</value></map>
+			<map><key type="str">7_9</key><value type="int">405</value></map>
+			<map><key type="str">8_9</key><value type="int">405</value></map>
+			<map><key type="str">9_9</key><value type="int">405</value></map>
+			
+			<map><key type="str">7_3</key><value type="int">405</value></map>
+			<map><key type="str">8_3</key><value type="int">405</value></map>
+			<map><key type="str">7_2</key><value type="int">405</value></map>
+			<map><key type="str">8_2</key><value type="int">405</value></map>
+			<map><key type="str">9_2</key><value type="int">405</value></map>
+			<map><key type="str">6_1</key><value type="int">405</value></map>
+			<map><key type="str">7_1</key><value type="int">405</value></map>
+			<map><key type="str">8_1</key><value type="int">405</value></map>
+			<map><key type="str">9_1</key><value type="int">405</value></map>
+		</landformMap>
+	</scene>
+	
+	
+	<scene type="org.cx.game.ground.Ground" id="107003">
+		<description>网页版测试专用图</description>
+		<parameter>
+			<id type="int">107003</id>
+			<name type="str">战斗场景</name>
+			<xBorder type="int">21</xBorder>                                                                                              <!-- 地图边界：x轴最大值 -->
+			<yBorder type="int">12</yBorder>                                                                                              <!-- 地图边界：y轴最大值 -->
+			<imagePath type="str"></imagePath>                                                                                            <!-- 背景图片的路径 -->
+		</parameter>
+		
+		<!-- 阵营 -->
+		<troopList type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<troop type="int">1</troop>
+			<troop type="int">2</troop>
+		</troopList>
+		
+		<!-- 中立部队 -->
+		<corpsData type="java.util.ArrayList" interface="java.util.List" collection="true" delayed="true">
+			<corps type="str">2_3,101020007,1,3</corps>      <!-- 位置，ID，数量，阵营 -->
+		</corpsData>
+		
+		<!-- 建筑 -->
+		<buildingData type="java.util.ArrayList" interface="java.util.List" collection="true" delayed="true">                              <!-- 建筑物的集合 -->
+			<building type="str">11_9,506001,1</building>
+		</buildingData>
+		
+		<!-- 宝物 -->
+		<treasureMap type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map>
+				<key type="str">10_5</key>
+				<value type="org.cx.game.ground.treasure.EquipmentTreasure">
+					<parameter>
+						<type type="int">25001</type>
+					</parameter>
+					<atk type="int">10</atk>
+					<def type="int">10</def>
+				</value>
+			</map>
+		</treasureMap>
+		
+		<entranceMap type="java.util.HashMap" interface="java.util.Map" map="true">
+			<!-- 
+			<map><key type="str">8_8</key><value type="int">1</value></map>
+			<map><key type="str">9_8</key><value type="int">1</value></map>
+			 -->
+			<map><key type="str">10_10</key><value type="int">1</value></map>
+			<map><key type="str">11_10</key><value type="int">1</value></map>
+			<map><key type="str">12_10</key><value type="int">1</value></map>
+			<map><key type="str">13_10</key><value type="int">1</value></map>
+			<!-- 
+			<map><key type="str">14_8</key><value type="int">1</value></map>
+			<map><key type="str">15_8</key><value type="int">1</value></map>
+			<map><key type="str">8_9</key><value type="int">1</value></map>
+			<map><key type="str">9_9</key><value type="int">1</value></map>
+			 -->
+			<map><key type="str">10_11</key><value type="int">1</value></map>
+			<map><key type="str">11_11</key><value type="int">1</value></map>
+			<map><key type="str">12_11</key><value type="int">1</value></map>
+			<!-- 
+			<map><key type="str">13_9</key><value type="int">1</value></map>
+			<map><key type="str">14_9</key><value type="int">1</value></map>
+			<map><key type="str">8_4</key><value type="int">2</value></map>
+			<map><key type="str">9_4</key><value type="int">2</value></map>
+			 -->
+			<map><key type="str">10_4</key><value type="int">2</value></map>
+			<map><key type="str">11_4</key><value type="int">2</value></map>
+			<map><key type="str">12_4</key><value type="int">2</value></map>
+			<map><key type="str">13_4</key><value type="int">2</value></map>
+			<!-- 
+			<map><key type="str">14_4</key><value type="int">2</value></map>
+			<map><key type="str">15_4</key><value type="int">2</value></map>
+			<map><key type="str">8_3</key><value type="int">2</value></map>
+			<map><key type="str">9_3</key><value type="int">2</value></map>
+			-->
+			<map><key type="str">10_3</key><value type="int">2</value></map>
+			<map><key type="str">11_3</key><value type="int">2</value></map>
+			<map><key type="str">12_3</key><value type="int">2</value></map>
+			<!-- 
+			<map><key type="str">13_3</key><value type="int">2</value></map>
+			<map><key type="str">14_3</key><value type="int">2</value></map>
+			  -->
+		</entranceMap>
+		
+		<!-- 地形 -->
+		<landformMap type="java.util.HashMap" interface="java.util.Map" map="true">
+			<!-- 山 -->
+			<!-- 9 -->
+			<map><key type="str">1_6</key><value type="int">405</value></map>
+			<map><key type="str">2_6</key><value type="int">405</value></map>
+			<map><key type="str">3_6</key><value type="int">405</value></map>
+			<map><key type="str">4_6</key><value type="int">405</value></map>
+			<map><key type="str">5_6</key><value type="int">405</value></map>
+			<map><key type="str">6_6</key><value type="int">405</value></map>
+			<map><key type="str">1_7</key><value type="int">405</value></map>
+			<map><key type="str">2_7</key><value type="int">405</value></map>
+			<map><key type="str">3_7</key><value type="int">405</value></map>
+			<map><key type="str">4_7</key><value type="int">405</value></map>
+			<map><key type="str">5_7</key><value type="int">405</value></map>
+			<map><key type="str">6_7</key><value type="int">405</value></map>
+			<!-- 10 -->
+			<map><key type="str">7_1</key><value type="int">405</value></map>
+			<map><key type="str">7_2</key><value type="int">405</value></map>	
+			<map><key type="str">7_3</key><value type="int">405</value></map>
+			<map><key type="str">8_1</key><value type="int">405</value></map>
+			<map><key type="str">8_2</key><value type="int">405</value></map>
+			<map><key type="str">6_3</key><value type="int">405</value></map>
+			<!-- 8 -->
+			<map><key type="str">7_10</key><value type="int">405</value></map>
+			<map><key type="str">7_11</key><value type="int">405</value></map>
+			<map><key type="str">8_12</key><value type="int">405</value></map>
+			<map><key type="str">8_10</key><value type="int">405</value></map>
+			<map><key type="str">8_11</key><value type="int">405</value></map>
+			<map><key type="str">9_12</key><value type="int">405</value></map>
+			<!-- 2 -->
+			<map><key type="str">14_1</key><value type="int">405</value></map>
+			<map><key type="str">15_1</key><value type="int">405</value></map>
+			<map><key type="str">15_2</key><value type="int">405</value></map>
+			<map><key type="str">16_2</key><value type="int">405</value></map>
+			<map><key type="str">15_3</key><value type="int">405</value></map>
+			<map><key type="str">16_3</key><value type="int">405</value></map>
+			<!-- 4 -->
+			<map><key type="str">16_10</key><value type="int">405</value></map>
+			<map><key type="str">15_11</key><value type="int">405</value></map>
+			<map><key type="str">15_12</key><value type="int">405</value></map>
+			<map><key type="str">16_7</key><value type="int">405</value></map>
+			<map><key type="str">16_8</key><value type="int">405</value></map>
+			<map><key type="str">15_9</key><value type="int">405</value></map>
+			<map><key type="str">15_10</key><value type="int">405</value></map>
+			<map><key type="str">14_11</key><value type="int">405</value></map>
+			<map><key type="str">14_12</key><value type="int">405</value></map>
+			<!-- 3 -->
+			<map><key type="str">17_6</key><value type="int">405</value></map>
+			<map><key type="str">18_6</key><value type="int">405</value></map>
+			<map><key type="str">19_6</key><value type="int">405</value></map>
+			<map><key type="str">20_6</key><value type="int">405</value></map>
+			<map><key type="str">21_6</key><value type="int">405</value></map>
+			<map><key type="str">17_7</key><value type="int">405</value></map>
+			<map><key type="str">18_7</key><value type="int">405</value></map>
+			<map><key type="str">19_7</key><value type="int">405</value></map>
+			<map><key type="str">20_7</key><value type="int">405</value></map>
+			<map><key type="str">21_7</key><value type="int">405</value></map>
+			
+			<map><key type="str">6_4</key><value type="int">405</value></map>
+			<map><key type="str">7_4</key><value type="int">405</value></map>
+			<map><key type="str">5_5</key><value type="int">405</value></map>
+			<map><key type="str">6_5</key><value type="int">405</value></map>
+			<map><key type="str">6_8</key><value type="int">405</value></map>
+			<map><key type="str">7_8</key><value type="int">405</value></map>
+			<map><key type="str">6_9</key><value type="int">405</value></map>
+			<map><key type="str">7_9</key><value type="int">405</value></map>
+			<map><key type="str">16_4</key><value type="int">405</value></map>
+			<map><key type="str">17_4</key><value type="int">405</value></map>
+			<map><key type="str">16_5</key><value type="int">405</value></map>
+			<map><key type="str">17_5</key><value type="int">405</value></map>
+			<map><key type="str">17_8</key><value type="int">405</value></map>
+			<map><key type="str">16_9</key><value type="int">405</value></map>
+		</landformMap>
+	</scene>
+	
+</scenes>

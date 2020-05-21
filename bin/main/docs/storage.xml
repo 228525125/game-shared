@@ -1,0 +1,40 @@
+<list>
+	<storage type="org.cx.game.card.domain.Storage">
+		<id type="long">1</id>
+		<account type="str">admin</account>
+		<decks type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<deck type="org.cx.game.card.domain.Deck">
+				<name type="str">default</name>
+				<selected type="bool">true</selected>
+				<cards type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map><key type="int">1020001</key><value type="int">3</value></map>
+					<map><key type="int">1020002</key><value type="int">3</value></map>
+					<map><key type="int">1020003</key><value type="int">3</value></map>
+					<map><key type="int">1020004</key><value type="int">3</value></map>
+					<map><key type="int">1020005</key><value type="int">3</value></map>
+					<map><key type="int">1020006</key><value type="int">3</value></map>
+					<map><key type="int">1020007</key><value type="int">3</value></map>
+				</cards>
+			</deck>
+		</decks>
+	</storage>
+	<storage type="org.cx.game.card.domain.Storage">
+		<id type="long">2</id>
+		<account type="str">guest</account>
+		<decks type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<deck type="org.cx.game.card.domain.Deck">
+				<name type="str">default</name>
+				<selected type="bool">true</selected>
+				<cards type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map><key type="int">1020001</key><value type="int">5</value></map>
+					<map><key type="int">1020002</key><value type="int">5</value></map>
+					<map><key type="int">1020003</key><value type="int">5</value></map>
+					<map><key type="int">1020004</key><value type="int">5</value></map>
+					<map><key type="int">1020005</key><value type="int">5</value></map>
+					<map><key type="int">1020006</key><value type="int">5</value></map>
+					<map><key type="int">1020007</key><value type="int">5</value></map>
+				</cards>
+			</deck>
+		</decks>
+	</storage>
+</list>

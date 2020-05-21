@@ -1,0 +1,18 @@
+package org.cx.game.host;
+
+public interface IPlayer {
+	
+	/**
+	 * 游戏主机
+	 * @return
+	 */
+	public IHost getHost();
+	
+	public void setHost(IHost host);
+	
+	/**
+	 * 阵营，它根据比赛中的位置来定的
+	 * @return
+	 */
+	public Integer getTroop();
+}
