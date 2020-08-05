@@ -1,0 +1,8 @@
+<list>
+	<manual type="org.cx.game.card.dao.domain.Manual">
+		<id type="long">1</id>
+		<properties type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="str">1050001</key><value type="str">Res_48</value></map>
+		</properties>
+	</manual>
+</list>

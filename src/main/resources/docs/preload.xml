@@ -1,0 +1,34 @@
+<list>
+	<preload type="org.cx.game.card.dao.domain.Preload">
+		<id type="long">1</id>
+		<assets type="java.util.HashMap" interface="java.util.Map" map="true">
+			<!-- Levels -->
+			<map><key type="str">1070100</key><value type="str">Sprite</value></map>
+			<map><key type="str">1070200</key><value type="str">Sprite</value></map>
+			<map><key type="str">1070300</key><value type="str">Sprite</value></map>
+			
+			<!-- Buildings -->
+			<map><key type="str">1060001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1060002</key><value type="str">Sprite</value></map>
+			
+			<!-- Items -->
+			<map><key type="str">1050001</key><value type="str">Sprite</value></map>
+			
+			<!-- Lives -->
+			<map><key type="str">1040001</key><value type="str">Sprite</value></map>
+			
+			<!-- Tips -->
+			<map><key type="str">501</key><value type="str">Sprite</value></map>
+			<map><key type="str">502</key><value type="str">Sprite</value></map>
+			<map><key type="str">503</key><value type="str">Sprite</value></map>
+			<map><key type="str">504</key><value type="str">Sprite</value></map>
+			<map><key type="str">505</key><value type="str">Sprite</value></map>
+			<map><key type="str">506</key><value type="str">Sprite</value></map>
+			<map><key type="str">507</key><value type="str">Sprite</value></map>
+			<map><key type="str">508</key><value type="str">Sprite</value></map>
+			
+			<!-- default -->
+			<map><key type="str">CardLibrary</key><value type="str">CardLibrary</value></map>
+		</assets>
+	</preload>
+</list>

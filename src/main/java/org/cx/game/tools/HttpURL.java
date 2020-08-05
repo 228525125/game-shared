@@ -9,6 +9,7 @@ public class HttpURL {
 	
 	public final static String towerplay = "towerplay";
 	public final static String cardplay = "cardplay";
+	public final static String cardlevel = "cardlevel";
 	public final static String Play = "/Play";
 	public final static String connect = "/connect";
 	public final static String action = "/action";

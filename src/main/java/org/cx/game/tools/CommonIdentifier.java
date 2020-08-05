@@ -208,6 +208,8 @@ public class CommonIdentifier {
 	public final static String Card_Play = "Card_Play";
 	public final static String Card_Draw = "Card_Draw";
 	public final static String Character_Change_Mana = "Character_Change_Mana";
+	public final static String Character_Change_Hp = "Character_Change_Hp";
+	public final static String Character_Change_Shield = "Character_Change_Shield";
 	public final static String Character_Change_Status = "Character_Change_Status";
 	public final static String Character_Created = "Character_Created";
 	

@@ -99,6 +99,8 @@ public class XmlUtil {
 	
 	public final static String Storage_Storage = "storage";
 	
+	public final static String Level_Level = "level";
+	
 	//----------------通用---------------
 	
 	public final static String Attribute_Id = "id";

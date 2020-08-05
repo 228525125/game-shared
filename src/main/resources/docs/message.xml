@@ -1,0 +1,18 @@
+<list>
+	<message type="org.cx.game.card.dao.domain.Message">
+		<id type="long">1</id>
+		<language>zh_CN</language>
+		<message type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="str">TestValidator</key><value type="str">测试验证器成功！</value></map>
+			<map><key type="str">Spell_1</key><value type="str">光明符文</value></map>
+			<map><key type="str">Potion_1050001</key><value type="str">治疗药水</value></map>
+		</message>
+	</message>
+	<message type="org.cx.game.card.dao.domain.Message">
+		<id type="long">2</id>
+		<language>en_US</language>
+		<message type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="str">TestValidator</key><value type="str">The test was successful!</value></map>
+		</message>
+	</message>
+</list>

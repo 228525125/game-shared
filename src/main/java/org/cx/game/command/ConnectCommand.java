@@ -18,7 +18,7 @@ public class ConnectCommand extends Command {
 		
 		String account = parameter.toString();
 		IHostManager hm = SpringUtils.getBean("hostManager");
-		String playNo = hm.getPlayNoByAccount(account);
+		String playNo = hm.getPlayNoByCreator(account);
 	
 		if(null==playNo) throw new ExecuteValidatorException(this.getClass().getName()+".fail");
 		

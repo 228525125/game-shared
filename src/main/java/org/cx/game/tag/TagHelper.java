@@ -13,6 +13,9 @@ import org.dom4j.Element;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import lombok.Data;
+
+@Data
 public class TagHelper implements Serializable {
 	
 	
@@ -86,22 +89,5 @@ public class TagHelper implements Serializable {
 	 */
 	public Integer getCategory(Integer tag){
 		return tagCategoryMap.get(tag);
-	}
-
-	public void setTagCategoryMap(Map<Integer, Integer> tagCategoryMap) {
-		this.tagCategoryMap = tagCategoryMap;
-	}
-
-	public void setCategoryTagMap(Map<Integer, List<Integer>> categoryTagMap) {
-		this.categoryTagMap = categoryTagMap;
-	}
-
-	public void setObjectTagMap(Map<Integer, List<Integer>> objectTagMap) {
-		this.objectTagMap = objectTagMap;
-	}
-
-	public void setTagObjectMap(Map<Integer, List<Integer>> tagObjectMap) {
-		this.tagObjectMap = tagObjectMap;
-	}
-	
+	}	
 }

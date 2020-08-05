@@ -15,4 +15,14 @@ public interface IPlayer {
 	 * @return
 	 */
 	public Integer getTroop();
+	
+	public void setTroop(Integer troop);
+	
+	/**
+	 * 玩家帐号
+	 * @return
+	 */
+	public String getName();
+	
+	public void setName(String name);
 }

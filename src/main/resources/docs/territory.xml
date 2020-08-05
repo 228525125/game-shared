@@ -1,0 +1,35 @@
+<list>
+	<territory type="org.cx.game.card.dao.domain.Territory">
+		<id type="long">1070100</id>
+		<name type="str">坎普亚镇</name>
+		<levels type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<level type="long">1070101</level>
+		</levels>
+	</territory>
+	<territory type="org.cx.game.card.dao.domain.Territory">
+		<id type="long">1070200</id>
+		<name type="str">巨石森林</name>
+		<levels type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<!-- 
+			<level type="long">1070201</level>
+			<level type="long">1070202</level>
+			<level type="long">1070203</level>
+			<level type="long">1070204</level>
+			<level type="long">1070205</level>
+			 -->
+		</levels>
+	</territory>
+	<territory type="org.cx.game.card.dao.domain.Territory">
+		<id type="long">1070300</id>
+		<name type="str">通灵祭坛</name>
+		<levels type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<!-- 
+			<level type="long">1070301</level>
+			<level type="long">1070302</level>
+			<level type="long">1070303</level>
+			<level type="long">1070304</level>
+			<level type="long">1070305</level>
+			 -->
+		</levels>
+	</territory>
+</list>

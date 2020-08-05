@@ -2,7 +2,7 @@ package org.cx.game.host;
 
 public interface IHostManager {
 
-	public IHost createHost(String hostName, String creatorAccount, Long levelId);
+	public IHost createHost(String hostName, String creatorAccount, Integer nop);
 	
 	/**
 	 * 该方法加了同步锁
@@ -18,13 +18,15 @@ public interface IHostManager {
 	 */
 	public IHost get(String playNo);
 	
-	public String getPlayNoByAccount(String account);
+	public String getPlayNoByCreator(String creator);
 	
 	public String getPlayNoByHostName(String hostName);
 	
 	public IHost joinGame(String playNo, String account);
 	
 	public void synCache(IHost host);
+	
+	public void removeHost(String playNo);
 	
 	public void unlock(String playNo);
 	
