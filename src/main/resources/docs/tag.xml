@@ -1,4 +1,4 @@
-<list>
+<list> <!-- 规则1、一个Tag只能对应一个Category -->
 	<tags>	
 		<!-- 提示类型  -->
 		<category key="tishi" description="提示类型" code="1012">
@@ -17,6 +17,61 @@
 			</tag>
 			<tag key="mudidi" description="目标位置" code="508">
 				<object code="1060002"></object>
+			</tag>
+		</category>
+		<category key="zhiye" description="职业" code="1006">
+			<tag key="zhanshi" description="战士" code="301">
+				<object code="1011002"></object>
+			</tag>
+			<tag key="fashi" description="法师" code="302">
+				<object code="1011001"></object>
+			</tag>
+			<tag key="mushi" description="牧师" code="303">
+			</tag>
+			<tag key="shengqishi" description="圣骑士" code="304">
+			</tag>
+			<tag key="gongjianshou" description="弓箭手" code="305">
+			</tag>
+			<tag key="cike" description="刺客" code="306">
+			</tag>
+		</category>
+		<category key="kapaileixing" description="卡牌类型" code="1013">
+			<tag key="jichu" description="基础" code="131">
+				<object code="1020001"></object>
+				<object code="1020002"></object>
+				<object code="1020003"></object>
+				<object code="1020004"></object>
+				<object code="1020005"></object>
+				<object code="1020006"></object>
+				<object code="1020007"></object>
+				<object code="1020008"></object>
+				<object code="1020009"></object>
+				<object code="1020010"></object>
+				<object code="1020011"></object>
+				<object code="1020012"></object>
+			</tag>
+			<tag key="zhiye" description="职业" code="132">
+			</tag>
+			<tag key="yingxiong" description="英雄" code="133">
+			</tag>
+		</category>
+		<category key="yingxiong" description="英雄" code="1014">
+			<tag key="wizard" description="巫师" code="1011001">
+			</tag>
+			<tag key="Demon" description="恶魔" code="1011002">
+			</tag>
+		</category>
+		<category key="gongneng" description="卡牌功能分类" code="1005">
+			<tag key="gongji" description="攻击" code="201">
+				<object code="1020001"></object>
+				<object code="1020008"></object>
+				<object code="1020009"></object>
+			</tag>
+			<tag key="zhuangbei" description="装备" code="202">
+				
+			</tag>
+			<tag key="xianjing" description="陷阱" code="203">
+				
 			</tag>
 		</category>
 	</tags>

@@ -83,7 +83,7 @@ public class InteriorCommandParameterCallParamsExpressionValidator extends Valid
 					this.paramObjects.add(param);
 				}else{
 					//this.paramTypes.add(CommandUtil.getParameterType(params[i]));
-					this.paramObjects.add(CommandUtil.getParameterObject(params[i]));
+					this.paramObjects.add(CommandUtil.getParameterObject(params[i], buffer));
 				}
 			}
 		}

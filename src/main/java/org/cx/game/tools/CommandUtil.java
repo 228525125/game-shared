@@ -5,6 +5,12 @@ import java.util.List;
 import java.util.Map;
 
 import org.cx.game.arithmetic.Point;
+import org.cx.game.command.CommandBuffer;
+import org.cx.game.command.bind.BinderHelper;
+import org.cx.game.command.bind.Identification;
+import org.cx.game.core.GameObject;
+import org.cx.game.host.IHost;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 
 public class CommandUtil {
@@ -22,7 +28,13 @@ public class CommandUtil {
 		return String.class;
 	}
 	
-	public static Object getParameterObject(String str) {
+	/**
+	 * 根据字符串解析对象
+	 * @param str
+	 * @param buffer 如果前台传递GameObject.pid，则需要buffer来获取GameObject
+	 * @return
+	 */
+	public static Object getParameterObject(String str, CommandBuffer buffer) {
 		JsonHelper jsonHelper = SpringUtils.getBean("jsonHelper");
 		if(Util.isInteger(str))
 			return Integer.valueOf(str);
@@ -30,10 +42,28 @@ public class CommandUtil {
 			return Boolean.valueOf(str);
 		if(Util.isList(str)) {
 			String fanxing = str.substring(str.indexOf("<")+1, str.indexOf(">"));
-			if(-1 != fanxing.indexOf("Point"))
-				return jsonHelper.parseObject(str.substring(str.indexOf("[")), new TypeReference<List<Point>>() {});
-			
-			return jsonHelper.parseObject(str.substring(str.indexOf("[")), List.class);	
+			try {
+				Class clz = Class.forName(fanxing);
+				if(GameObject.class.isAssignableFrom(clz)) {      //如果是GameObject，只传递Pid的集合
+					List<Integer> list = jsonHelper.parseObject(str.substring(str.indexOf("[")), new TypeReference<List<Integer>>() {});
+					List<GameObject> gos = new ArrayList<GameObject>();
+					for(Integer pid : list) {
+						IHost host = buffer.getHost();
+						GameObject go = host.getGameObjects().get(pid);
+						gos.add(go);
+					}
+					
+					return gos;
+				}
+				
+				if(clz.equals(Point.class)) {
+					return jsonHelper.parseObject(str.substring(str.indexOf("[")), new TypeReference<List<Point>>() {});
+				}
+				
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		if(Util.isMap(str)) 
 			return jsonHelper.parseObject(str, Map.class);

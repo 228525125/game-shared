@@ -5,7 +5,7 @@
 		<nickName type="str">管理员</nickName>
 		<heroes type="java.util.ArrayList" interface="java.util.List" collection="true">
 			<hero type="org.cx.game.card.dao.domain.Hero">
-				<name type="str">Wizard</name>
+				<id type="long">1011001</id>
 				<decks type="java.util.ArrayList" interface="java.util.List" collection="true">
 					<deck type="org.cx.game.card.dao.domain.Deck">
 						<name type="str">default</name>
@@ -22,30 +22,50 @@
 				</decks>
 			</hero>
 		</heroes>
-		
 	</storage>
 	<storage type="org.cx.game.card.dao.domain.Storage">
 		<id type="long">2</id>
 		<account type="str">DeckTemplate</account>
 		<nickName type="str">游客</nickName>
+		<cards type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="int">1020001</key><value type="int">3</value></map>
+			<map><key type="int">1020003</key><value type="int">3</value></map>
+			<map><key type="int">1020004</key><value type="int">3</value></map>
+			<map><key type="int">1020006</key><value type="int">3</value></map>
+			<map><key type="int">1020007</key><value type="int">3</value></map>
+		</cards>
 		<heroes type="java.util.ArrayList" interface="java.util.List" collection="true">
 			<hero type="org.cx.game.card.dao.domain.Hero">
-				<name type="str">Wizard</name>
+				<id type="long">1011001</id>
 				<decks type="java.util.ArrayList" interface="java.util.List" collection="true">
 					<deck type="org.cx.game.card.dao.domain.Deck">
 						<name type="str">默认模版</name>
 						<cards type="java.util.HashMap" interface="java.util.Map" map="true">
 							<map><key type="int">1020001</key><value type="int">3</value></map>
-							<map><key type="int">1020002</key><value type="int">3</value></map>
 							<map><key type="int">1020003</key><value type="int">3</value></map>
 							<map><key type="int">1020004</key><value type="int">3</value></map>
-							<map><key type="int">1020005</key><value type="int">3</value></map>
 							<map><key type="int">1020006</key><value type="int">3</value></map>
 							<map><key type="int">1020007</key><value type="int">3</value></map>
 						</cards>
 					</deck>
 				</decks>
 			</hero>
+			<hero type="org.cx.game.card.dao.domain.Hero">
+				<id type="long">1011002</id>
+			</hero>
 		</heroes>
+		<npcList type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<npc type="str">Demon</npc>
+		</npcList>
+		<items type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<item type="org.cx.game.card.dao.domain.Item">
+				<id type="long">1050001</id>
+				<amount type="int">0</amount>
+			</item>
+			<item type="org.cx.game.card.dao.domain.Item">
+				<id type="long">1050002</id>
+				<amount type="int">10000</amount>
+			</item>
+		</items>
 	</storage>
 </list>

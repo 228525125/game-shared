@@ -6,8 +6,6 @@ import org.cx.game.command.check.CheckHelper;
 import org.cx.game.command.check.CheckHelperBuilder;
 import org.cx.game.rule.RuleBuilder;
 import org.cx.game.rule.RuleHelper;
-import org.cx.game.tag.TagHelper;
-import org.cx.game.tag.TagHelperBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -18,10 +16,10 @@ import org.springframework.context.annotation.PropertySource;
 @ComponentScan(basePackages = {"org.cx.game.tools", "org.cx.game.rule", "org.cx.game.observer", "org.cx.game.tag", "org.cx.game.command.check"})
 public class SharedConfig {
 	
-	@Bean("tagHelper")
+	/*@Bean("tagHelper")
 	public TagHelper getTagHelper(TagHelperBuilder builder) {
 		return builder.getInstance();
-	}
+	}*/
 	
 	@Bean("checkHelper")
 	public CheckHelper getCheckHelper(CheckHelperBuilder builder) {

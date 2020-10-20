@@ -2,7 +2,10 @@
 	<manual type="org.cx.game.card.dao.domain.Manual">
 		<id type="long">1</id>
 		<properties type="java.util.HashMap" interface="java.util.Map" map="true">
-			<map><key type="str">1050001</key><value type="str">Res_48</value></map>
+			<map><key type="str">rank_1</key><value type="str">100</value></map>
+			<map><key type="str">rank_2</key><value type="str">400</value></map>
+			<map><key type="str">rank_3</key><value type="str">1600</value></map>
+			<map><key type="str">rank_4</key><value type="str">6400</value></map>
 		</properties>
 	</manual>
 </list>

@@ -17,6 +17,23 @@
 			<!-- Lives -->
 			<map><key type="str">1040001</key><value type="str">Sprite</value></map>
 			
+			<!-- Cards -->
+			<map><key type="str">1020001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020002</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020003</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020004</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020005</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020006</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020007</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020008</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020009</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020010</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020011</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020012</key><value type="str">Sprite</value></map>
+			
+			<!-- Intents -->
+			<map><key type="str">1030012</key><value type="str">Sprite</value></map>
+			
 			<!-- Tips -->
 			<map><key type="str">501</key><value type="str">Sprite</value></map>
 			<map><key type="str">502</key><value type="str">Sprite</value></map>

@@ -1,5 +1,6 @@
 package org.cx.game.tools;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -49,7 +50,8 @@ public class JsonHelper {
 	
 	public static void main(String[] args) {
 		JsonHelper helper = new JsonHelper();
-		String json = "{'command' : 'cmd'}";
-		helper.parseObject(json, Command.class);
+		String json = "[{'command' : 'cmd'}]";
+		List list = helper.parseObject(json, ArrayList.class);
+		System.out.println(list.size());
 	}
 }

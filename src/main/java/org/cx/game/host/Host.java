@@ -10,6 +10,7 @@ import org.cx.game.tools.JsonHelper;
 import org.cx.game.tools.SpringUtils;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -22,6 +23,7 @@ public abstract class Host extends GameObject implements IHost {
 	public final static Integer Status_Ready = 2;
 	public final static Integer Status_Start = 3;
 	public final static Integer Status_CharacterCreated = 4;
+	public final static Integer Status_DeckCreated = 5;
 	
 	private String playNo = null;
 	private String name = null;
@@ -168,4 +170,9 @@ public abstract class Host extends GameObject implements IHost {
 		}
 		return null;
 	}
+	
+	public GameObject remove(Integer pid) {
+		GameObject go = getGameObjects().remove(pid);
+		return go;
+	}	
 }

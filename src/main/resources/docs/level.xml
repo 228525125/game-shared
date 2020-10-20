@@ -27,7 +27,7 @@
 						<name type="str">Demon</name>
 					</enemy>
 					<potion type="org.cx.game.card.dao.domain.Potion">
-						<id type="long">1050001</id>
+						<id type="long">1050101</id>
 						<value type="int">100</value>
 						<range type="str">1-9</range>
 					</potion>

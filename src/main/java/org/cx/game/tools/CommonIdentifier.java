@@ -205,13 +205,15 @@ public class CommonIdentifier {
 	public final static String Game_Start = "Game_Start";
 	public final static String Game_Over = "Game_Over";
 	
-	public final static String Card_Play = "Card_Play";
-	public final static String Card_Draw = "Card_Draw";
+	public final static String Character_Play_Card = "Character_Play_Card";
+	public final static String Character_Draw_Card = "Character_Draw_Card";
+	public final static String Character_Discard_Card = "Character_Discard_Card";
 	public final static String Character_Change_Mana = "Character_Change_Mana";
 	public final static String Character_Change_Hp = "Character_Change_Hp";
 	public final static String Character_Change_Shield = "Character_Change_Shield";
 	public final static String Character_Change_Status = "Character_Change_Status";
 	public final static String Character_Created = "Character_Created";
+	public final static String Deck_Created = "Deck_Created";
 	
 	public final static String Turn_Start = "Turn_Start";
 	public final static String Turn_End = "Turn_End";

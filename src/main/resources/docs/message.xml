@@ -5,7 +5,11 @@
 		<message type="java.util.HashMap" interface="java.util.Map" map="true">
 			<map><key type="str">TestValidator</key><value type="str">测试验证器成功！</value></map>
 			<map><key type="str">Spell_1</key><value type="str">光明符文</value></map>
-			<map><key type="str">Potion_1050001</key><value type="str">治疗药水</value></map>
+			<map><key type="str">Hero_1011001</key><value type="str">Wizard</value></map>
+			<map><key type="str">Hero_1011002</key><value type="str">Demon</value></map>
+			<map><key type="str">Item_1050001</key><value type="str">金币</value></map>
+			<map><key type="str">Item_1050002</key><value type="str">灰烬</value></map>
+			<map><key type="str">Potion_1050101</key><value type="str">治疗药水</value></map>
 		</message>
 	</message>
 	<message type="org.cx.game.card.dao.domain.Message">
