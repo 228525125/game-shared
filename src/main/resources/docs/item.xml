@@ -1,0 +1,27 @@
+<list>
+	<item type="org.cx.game.card.dao.domain.level.item.Item">
+		<id type="long">1050001</id>
+		<itemtype type="int">141</itemtype>
+		<price type="int">1</price>
+	</item>
+	<item type="org.cx.game.card.dao.domain.level.item.Item">
+		<id type="long">1050002</id>
+		<itemtype type="int">142</itemtype>
+		<price type="int">1</price>
+	</item>
+	<item type="org.cx.game.card.dao.domain.level.item.Potion">
+		<id type="long">1050101</id>
+		<itemtype type="int">144</itemtype>
+		<price type="int">50</price>
+		<description type="str">恢复角色 100 HP</description>
+	</item>
+	<item type="org.cx.game.card.dao.domain.level.item.Equipment">
+		<id type="long">1050694</id>
+		<price type="int">0</price>
+		<itemtype type="int">143</itemtype>
+		<description type="str">暗影披风</description>
+		<cumulative type="bool">false</cumulative>
+		<series type="int">1317</series>            <!-- 披风 -->
+		<triggerType type="int">1332</triggerType>  <!-- 主动 -->
+	</item>
+</list>

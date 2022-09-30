@@ -6,6 +6,44 @@
 			<map><key type="str">rank_2</key><value type="str">400</value></map>
 			<map><key type="str">rank_3</key><value type="str">1600</value></map>
 			<map><key type="str">rank_4</key><value type="str">6400</value></map>
+			
+			<!-- LevelObject -->
+			<!-- item -->
+			<map><key type="str">1050001</key><value type="str">org.cx.game.card.dao.domain.level.item.Item</value></map>
+			<map><key type="str">1050002</key><value type="str">org.cx.game.card.dao.domain.level.item.Item</value></map>
+			<map><key type="str">1050101</key><value type="str">org.cx.game.card.dao.domain.level.item.Potion</value></map>
+			
+			<!-- life -->
+			<map><key type="str">1011001</key><value type="str">org.cx.game.card.dao.domain.level.life.Hero</value></map>
+			<map><key type="str">1011002</key><value type="str">org.cx.game.card.dao.domain.level.life.Hero</value></map>
+			<map><key type="str">1014001</key><value type="str">org.cx.game.card.dao.domain.level.life.Enemy</value></map>
+			<map><key type="str">1014002</key><value type="str">org.cx.game.card.dao.domain.level.life.Elite</value></map>
+			<map><key type="str">1014003</key><value type="str">org.cx.game.card.dao.domain.level.life.Elite</value></map>
+			<map><key type="str">1015001</key><value type="str">org.cx.game.card.dao.domain.level.life.Neutral</value></map>
+			<map><key type="str">1015002</key><value type="str">org.cx.game.card.dao.domain.level.life.Neutral</value></map>
+			
+			<!-- building -->
+			<map><key type="str">1060001</key><value type="str">org.cx.game.card.dao.domain.level.building.Entrance</value></map>
+			<map><key type="str">1060002</key><value type="str">org.cx.game.card.dao.domain.level.building.Exit</value></map>
+			<map><key type="str">1060003</key><value type="str">org.cx.game.card.dao.domain.level.building.Teleporter</value></map>
+			<map><key type="str">1060004</key><value type="str">org.cx.game.card.dao.domain.level.building.NavigationBoard</value></map>
+			
+			<!-- GameDataPath -->
+			<map><key type="str">LevelsPath</key><value type="str">Data/Levels/</value></map>
+			<map><key type="str">GroundsPath</key><value type="str">Data/Grounds/</value></map>
+			<map><key type="str">BuildingsPath</key><value type="str">Data/Buildings/</value></map>
+			<map><key type="str">LivesPath</key><value type="str">Data/Lives/</value></map>
+			<map><key type="str">ItemsPath</key><value type="str">Data/Items/</value></map>
+			<map><key type="str">PlayersPath</key><value type="str">Data/Players/</value></map>
+			<map><key type="str">EnemiesPath</key><value type="str">Data/Players/</value></map>
+			<map><key type="str">CardsPath</key><value type="str">Data/Cards/</value></map>
+			<map><key type="str">TalentsPath</key><value type="str">Data/Talents/</value></map>
+			<map><key type="str">DecksPath</key><value type="str">Data/Decks/</value></map>
+			<map><key type="str">IntentsPath</key><value type="str">Data/Intents/</value></map>
+			<map><key type="str">ParticlesPath</key><value type="str">Data/Particles/</value></map>
+			<map><key type="str">SkillsPath</key><value type="str">Data/Skills/</value></map>
+			<map><key type="str">TypesPath</key><value type="str">Data/Types/</value></map>
+			
 		</properties>
 	</manual>
 </list>

@@ -1,0 +1,32 @@
+<list>
+	<reward type="org.cx.game.card.dao.domain.reward.Reward">
+		<id type="long">1014001</id>
+		<formulas type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<formula type="org.cx.game.card.dao.domain.reward.ItemFormula">
+				<id type="long">1050101</id>
+				<range type="str">1-5</range>
+				<chance type="int">0</chance>
+			</formula>
+		</formulas>
+	</reward>
+	<reward type="org.cx.game.card.dao.domain.reward.Reward">
+		<id type="long">1014002</id>
+		<formulas type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<formula type="org.cx.game.card.dao.domain.reward.ItemFormula">
+				<id type="long">1050001</id>
+				<range type="str">5-10</range>
+				<chance type="int">10000</chance>
+			</formula>
+		</formulas>
+	</reward>
+	<reward type="org.cx.game.card.dao.domain.reward.Reward">
+		<id type="long">1014003</id>
+		<formulas type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<formula type="org.cx.game.card.dao.domain.reward.ItemFormula">
+				<id type="long">1050001</id>
+				<range type="str">5-10</range>
+				<chance type="int">10000</chance>
+			</formula>
+		</formulas>
+	</reward>
+</list>

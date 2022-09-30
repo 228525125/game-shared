@@ -1,0 +1,96 @@
+<list>
+	<!-- Hero -->
+	<life type="org.cx.game.card.dao.domain.level.life.Hero">
+		<id type="long">1011001</id>
+		<name type="str">Magee</name>
+		<description type="str">这些展现着各种法术的魔法界精英们来自不可思议的魔法王国Dalaran。在战场上，他们骑着座骑挥舞着充满魔法力量的法杖展现自己的能量。</description>
+		
+		<!-- 
+		<skillPoint type="int">5</skillPoint>
+		<grade type="int">5</grade>
+		 -->
+		 
+		 <!-- 牌组 
+		<decks type="java.util.ArrayList" interface="java.util.List" collection="true">
+		</decks>
+		-->
+		
+		<!-- 特殊卡牌 
+		<cards type="java.util.HashMap" interface="java.util.Map" map="true">
+		</cards>
+		-->
+		
+		<!-- 天赋 
+		<talentIds type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<talent type="int">1160201</talent>
+			<talent type="int">1160202</talent>
+			<talent type="int">1160203</talent>
+			<talent type="int">1160204</talent>
+			<talent type="int">1160205</talent>
+			<talent type="int">1160206</talent>
+		</talentIds>
+		-->
+				
+		<!-- 物品 -->
+		<items type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<item type="org.cx.game.card.dao.domain.level.item.Item">
+				<id type="long">1050001</id>
+				<amount type="int">200</amount>
+			</item>
+			<item type="org.cx.game.card.dao.domain.level.item.Item">
+				<id type="long">1050002</id>
+				<amount type="int">10000</amount>
+			</item>
+		</items>
+	</life>
+	<life type="org.cx.game.card.dao.domain.level.life.Hero">
+		<id type="long">1011002</id>
+		<name type="str">Deviace</name>
+		<description type="str">与阴影为伴,精于逃离的潜行者们最擅长在幕后行动。他们在从事偷窃,谋杀,间谍和暗杀方面的工作时游刃有余。</description>
+
+		<!-- 天赋 
+		<talentIds type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<talent type="int">1160601</talent>
+			<talent type="int">1160602</talent>
+			<talent type="int">1160603</talent>
+			<talent type="int">1160605</talent>
+			<talent type="int">1160606</talent>
+		</talentIds>
+		-->
+				
+		<!-- 物品 -->
+		<items type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<item type="org.cx.game.card.dao.domain.level.item.Item">
+				<id type="long">1050001</id>
+				<amount type="int">200</amount>
+			</item>
+			<item type="org.cx.game.card.dao.domain.level.item.Item">
+				<id type="long">1050002</id>
+				<amount type="int">10000</amount>
+			</item>
+			<item type="org.cx.game.card.dao.domain.level.item.Equipment">
+				<id type="long">1050694</id>
+				<amount type="int">1</amount>
+			</item>
+		</items>
+	</life>
+	
+	<!-- Enemy -->
+	<life type="org.cx.game.card.dao.domain.level.life.Enemy">
+		<id type="long">1014001</id>
+	</life>
+	<life type="org.cx.game.card.dao.domain.level.life.Elite">
+		<id type="long">1014002</id>
+	</life>
+	<life type="org.cx.game.card.dao.domain.level.life.Elite">
+		<id type="long">1014003</id>
+	</life>
+	
+	<!-- Neutral -->
+	<life type="org.cx.game.card.dao.domain.level.life.Neutral">
+		<id type="long">1015001</id>
+	</life>
+	<life type="org.cx.game.card.dao.domain.level.life.Neutral">
+		<id type="long">1015002</id>
+	</life>
+</list>

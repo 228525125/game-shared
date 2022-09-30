@@ -1,0 +1,14 @@
+<list>
+	<keyword type="org.cx.game.card.dao.domain.Keyword">
+		<id type="long">1</id>
+		<properties type="java.util.HashMap" interface="java.util.Map" map="true">
+		
+			<!-- 关键词解释 -->
+			<map><key type="str">火焰专精</key><value type="str">增加火属性伤害</value></map>
+			<map><key type="str">灼烧</key><value type="str">回合开始时，造成2点火属性伤害</value></map>
+			<map><key type="str">倒地</key><value type="str">倒地后，无法移动</value></map>
+			<map><key type="str">眩晕</key><value type="str">倒地后，无法移动</value></map>
+			
+		</properties>
+	</keyword>
+</list>

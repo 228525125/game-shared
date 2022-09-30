@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.cx.game.arithmetic.Point;
+import org.cx.game.card.server.PowerType;
 import org.cx.game.command.CommandBuffer;
 import org.cx.game.command.bind.BinderHelper;
 import org.cx.game.command.bind.Identification;
@@ -24,7 +25,8 @@ public class CommandUtil {
 			return List.class;
 		if(Util.isMap(str))
 			return Map.class;
-		
+		if(Util.isPowerType(str))
+			return PowerType.class;
 		return String.class;
 	}
 	
@@ -69,7 +71,9 @@ public class CommandUtil {
 			return jsonHelper.parseObject(str, Map.class);
 		if(Util.isPoint(str))
 			return jsonHelper.parseObject(str.substring(str.indexOf("{")), Point.class);
-		
+		if(Util.isPowerType(str)) {
+			return Util.parse(str);
+		}
 		return str;
 	}
 	

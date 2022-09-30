@@ -207,13 +207,24 @@ public class CommonIdentifier {
 	
 	public final static String Character_Play_Card = "Character_Play_Card";
 	public final static String Character_Draw_Card = "Character_Draw_Card";
+	public final static String Character_Putin_Card = "Character_Putin_Card";
 	public final static String Character_Discard_Card = "Character_Discard_Card";
+	public final static String Character_Conjure_Skill = "Character_Conjure_Skill";
+	public final static String Character_Using_Equipment = "Character_Using_Equipment";
 	public final static String Character_Change_Mana = "Character_Change_Mana";
+	public final static String Character_Change_Vigour = "Character_Change_Vigour";
+	public final static String Character_Change_Capacity = "Character_Change_Capacity";
+	public final static String Character_Change_Speed = "Character_Change_Speed";
+	public final static String Character_Change_Strength = "Character_Change_Strength";
+	public final static String Character_Change_Endurance = "Character_Change_Endurance";
+	public final static String Character_Change_Distance = "Character_Change_Distance";
+	public final static String Character_Change_Power = "Character_Change_Power";
 	public final static String Character_Change_Hp = "Character_Change_Hp";
 	public final static String Character_Change_Shield = "Character_Change_Shield";
 	public final static String Character_Change_Status = "Character_Change_Status";
 	public final static String Character_Created = "Character_Created";
 	public final static String Deck_Created = "Deck_Created";
+	public final static String Skills_Created = "Skills_Created";
 	
 	public final static String Turn_Start = "Turn_Start";
 	public final static String Turn_End = "Turn_End";

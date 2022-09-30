@@ -1,0 +1,19 @@
+<list>
+	<building type="org.cx.game.card.dao.domain.level.building.Entrance">
+		<id type="long">1060001</id>
+		<name type="str">入口</name>
+	</building>
+	<building type="org.cx.game.card.dao.domain.level.building.Exit">
+		<id type="long">1060002</id>
+		<name type="str">出口</name>
+	</building>
+	<building type="org.cx.game.card.dao.domain.level.building.Teleporter">
+		<id type="long">1060003</id>
+		<name type="str">传送门</name>
+	</building>
+	<building type="org.cx.game.card.dao.domain.level.building.NavigationBoard">
+		<id type="long">1060004</id>
+		<name type="str">出口</name>
+		<description type="str">这是一块破损的指路牌，擦掉上面的泥土后，还能依稀看出  {$Tips$} 的位置</description>
+	</building>
+</list>

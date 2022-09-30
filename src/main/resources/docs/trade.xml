@@ -1,0 +1,34 @@
+<list>
+	<trade type="org.cx.game.card.dao.domain.trade.Trade">
+		<id type="long">1100001</id>
+		<pedlar type="long">0</pedlar>
+		<commodities type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<commodity type="org.cx.game.card.dao.domain.trade.Commodity">
+				<debit type="long">1050101</debit>
+				<credit type="long">1050001</credit>
+				<rate type="int">100000</rate> <!-- 以10000为基数，debit / credit * 10000 = rate -->
+			</commodity>
+		</commodities>
+	</trade>
+	<trade type="org.cx.game.card.dao.domain.trade.Trade">
+		<id type="long">1100101</id>
+		<pedlar type="long">1015002</pedlar>
+		<commodities type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<commodity type="org.cx.game.card.dao.domain.trade.Commodity">
+				<debit type="long">1050101</debit>
+				<credit type="long">1050001</credit>
+				<rate type="int">500000</rate> <!-- 以10000为基数，debit / credit * 10000 = rate -->
+			</commodity>
+			<commodity type="org.cx.game.card.dao.domain.trade.Commodity">
+				<debit type="long">1050001</debit>
+				<credit type="long">1050101</credit>
+				<rate type="int">200</rate>
+			</commodity>
+			<commodity type="org.cx.game.card.dao.domain.trade.Commodity">
+				<debit type="long">1050001</debit>
+				<credit type="long">1050002</credit>
+				<rate type="int">200</rate>
+			</commodity>
+		</commodities>
+	</trade>
+</list>

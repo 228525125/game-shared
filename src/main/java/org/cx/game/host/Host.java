@@ -23,7 +23,6 @@ public abstract class Host extends GameObject implements IHost {
 	public final static Integer Status_Ready = 2;
 	public final static Integer Status_Start = 3;
 	public final static Integer Status_CharacterCreated = 4;
-	public final static Integer Status_DeckCreated = 5;
 	
 	private String playNo = null;
 	private String name = null;

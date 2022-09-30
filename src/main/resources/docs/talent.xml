@@ -1,0 +1,142 @@
+<list>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160201</id>
+		<name type="str">火球术</name>
+		<description type="str">升级火球术</description>
+		<location type="int">11</location>
+		<level type="int">1</level>
+		<cardId type="int">1020293</cardId>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160202</id>
+		<name type="str">爆炎术</name>
+		<description type="str">升级爆炎术</description>
+		<location type="int">12</location>
+		<level type="int">1</level>
+		<cardId type="int">1020288</cardId>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160203</id>
+		<name type="str">燃烧之灵</name>
+		<description type="str">升级燃烧之灵</description>
+		<location type="int">13</location>
+		<level type="int">1</level>
+		<cardId type="int">1020289</cardId>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160204</id>
+		<name type="str">燃烧殆尽</name>
+		<description type="str">升级燃烧殆尽</description>
+		<location type="int">21</location>
+		<level type="int">2</level>
+		<cardId type="int">1020290</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">1</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160205</id>
+		<name type="str">龙息术</name>
+		<description type="str">升级龙息术</description>
+		<location type="int">22</location>
+		<level type="int">2</level>
+		<cardId type="int">1020291</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">1</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160206</id>
+		<name type="str">陨石术</name>
+		<description type="str">升级陨石术</description>
+		<location type="int">31</location>
+		<level type="int">3</level>
+		<cardId type="int">1020292</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">2</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160601</id>
+		<name type="str">匕首突刺</name>
+		<description type="str">升级匕首突刺</description>
+		<location type="int">11</location>
+		<level type="int">1</level>
+		<cardId type="int">1020683</cardId>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160602</id>
+		<name type="str">扒窃</name>
+		<description type="str">升级扒窃</description>
+		<location type="int">12</location>
+		<level type="int">1</level>
+		<cardId type="int">1020678</cardId>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160603</id>
+		<name type="str">破影一击</name>
+		<description type="str">升级破影一击</description>
+		<location type="int">21</location>
+		<level type="int">2</level>
+		<cardId type="int">1020681</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">1</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	<!-- 
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160604</id>
+		<name type="str">夺命飞刃</name>
+		<description type="str">升级夺命飞刃</description>
+		<location type="int">22</location>
+		<level type="int">2</level>
+		<cardId type="int">1020682</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">1</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	 -->
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160605</id>
+		<name type="str">暗影之舞</name>
+		<description type="str">升级暗影之舞</description>
+		<location type="int">31</location>
+		<level type="int">3</level>
+		<cardId type="int">1020679</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">2</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+	<talent type="org.cx.game.card.dao.domain.talent.BattleTalent">
+		<id type="long">1160606</id>
+		<name type="str">卡牌大师</name>
+		<description type="str">升级卡牌大师</description>
+		<location type="int">32</location>
+		<level type="int">3</level>
+		<cardId type="int">1020680</cardId>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<requirement type="org.cx.game.card.dao.domain.talent.PreSkillPointRequirement">
+				<level type="int">2</level>
+				<amount type="int">2</amount>
+			</requirement>
+		</requirements>
+	</talent>
+</list>

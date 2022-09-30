@@ -1,14 +1,20 @@
 <list>
-	<level type="org.cx.game.card.dao.domain.Level">
+	<level type="org.cx.game.card.dao.domain.level.Level">
+		<id type="long">1070001</id>
+		<name type="str">大本营</name>
+		<defaultHero type="long">1011001</defaultHero>
+	</level>
+	<level type="org.cx.game.card.dao.domain.level.Level">
 		<id type="long">1070101</id>
-		<name type="str">1-1</name>
-		<population type="int">1</population>
+		<name type="str">幽冥塔</name>
+		<description type="str">当棺木中一个女子醒来,这个世界的噪声便开始了... 幽冥塔,一个传说能让修炼者渡劫成神的秘境,到底是传说?还是真实存在?</description>
+		
 		<grounds type="java.util.ArrayList" interface="java.util.List" collection="true">
-			<ground type="org.cx.game.card.dao.domain.Ground">
-				<xBorder type="int">9</xBorder>
-				<yBorder type="int">6</yBorder>
+			<ground type="org.cx.game.card.dao.domain.level.Ground">
+				<xborder type="int">10</xborder>
+				<yborder type="int">7</yborder>
 				<builders type="java.util.ArrayList" interface="java.util.List" collection="true">
-					<entrance type="org.cx.game.card.dao.domain.Entrance">
+					<entrance type="org.cx.game.card.dao.domain.level.building.Entrance">
 						<id type="long">1060001</id>
 						<point type="org.cx.game.arithmetic.Point">
 							<x type="int">5</x>
@@ -16,21 +22,42 @@
 						</point>
 						<range type="str">1-9</range>
 					</entrance>
-					<exit type="org.cx.game.card.dao.domain.Exit">
+					<exit type="org.cx.game.card.dao.domain.level.building.Exit">
 						<id type="long">1060002</id>
 						<range type="str">5-9</range>
 					</exit>
-					<enemy type="org.cx.game.card.dao.domain.Enemy">
-						<id type="long">1040001</id>
+					<building type="org.cx.game.card.dao.domain.level.building.NavigationBoard">
+						<id type="long">1060004</id>
+						<range type="str">1-1</range>
+						<tips type="int">501</tips>					
+					</building>
+					<neutral type="org.cx.game.card.dao.domain.level.life.Neutral">
+						<id type="long">1015001</id>
+						<point type="org.cx.game.arithmetic.Point">
+							<x type="int">5</x>
+							<y type="int">4</y>
+						</point>
+					</neutral>
+					<enemy type="org.cx.game.card.dao.domain.level.life.Enemy">
+						<id type="long">1014001</id>
+						<builderType type="int">1</builderType>
 						<num type="int">10</num>
 						<interval type="int">1</interval>
-						<name type="str">Demon</name>
 					</enemy>
-					<potion type="org.cx.game.card.dao.domain.Potion">
+					<potion type="org.cx.game.card.dao.domain.level.item.Potion">
 						<id type="long">1050101</id>
+						<builderType type="int">1</builderType>
 						<value type="int">100</value>
 						<range type="str">1-9</range>
+						<chance type="int">5000</chance>
+						<amount type="int">1</amount>
 					</potion>
+					<enemy type="org.cx.game.card.dao.domain.level.life.Elite">
+						<id type="long">1014003</id>
+						<builderType type="int">1</builderType>
+						<range type="str">1-1</range>
+						<chance type="int">10000</chance>
+					</enemy>
 				</builders>
 				<disables type="java.util.ArrayList" interface="java.util.List" collection="true">
 					<!-- 
@@ -48,6 +75,60 @@
 					</point>
 					 -->
 				</disables>
+			</ground>
+			<ground type="org.cx.game.card.dao.domain.level.Ground">
+				<builders type="java.util.ArrayList" interface="java.util.List" collection="true">
+					<entrance type="org.cx.game.card.dao.domain.level.building.Entrance">
+						<id type="long">1060001</id>
+						<point type="org.cx.game.arithmetic.Point">
+							<x type="int">5</x>
+							<y type="int">4</y>
+						</point>
+						<range type="str">1-9</range>
+					</entrance>
+					<exit type="org.cx.game.card.dao.domain.level.building.Exit">
+						<id type="long">1060002</id>
+						<range type="str">5-9</range>
+					</exit>
+					<teleporter type="org.cx.game.card.dao.domain.level.building.Teleporter">
+						<id type="long">1060003</id>
+						<range type="str">5-9</range>
+					</teleporter>
+					
+					<neutral type="org.cx.game.card.dao.domain.level.life.Neutral">
+						<id type="long">1015002</id>
+						<point type="org.cx.game.arithmetic.Point">
+							<x type="int">5</x>
+							<y type="int">4</y>
+						</point>
+					</neutral>
+					<enemy type="org.cx.game.card.dao.domain.level.life.Elite">
+						<id type="long">1014002</id>
+						<builderType type="int">1</builderType>
+						<range type="str">1-2</range>
+						<chance type="int">10000</chance>
+					</enemy>
+				</builders>
+			</ground>
+			<ground type="org.cx.game.card.dao.domain.level.Ground">
+				<builders type="java.util.ArrayList" interface="java.util.List" collection="true">
+					<entrance type="org.cx.game.card.dao.domain.level.building.Entrance">
+						<id type="long">1060001</id>
+						<point type="org.cx.game.arithmetic.Point">
+							<x type="int">5</x>
+							<y type="int">4</y>
+						</point>
+						<range type="str">1-9</range>
+					</entrance>
+					<exit type="org.cx.game.card.dao.domain.level.building.Exit">
+						<id type="long">1060002</id>
+						<range type="str">5-9</range>
+					</exit>
+					<teleporter type="org.cx.game.card.dao.domain.level.building.Teleporter">
+						<id type="long">1060003</id>
+						<range type="str">5-9</range>
+					</teleporter>
+				</builders>
 			</ground>
 		</grounds>
 	</level>

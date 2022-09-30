@@ -3,19 +3,48 @@
 		<id type="long">1</id>
 		<assets type="java.util.HashMap" interface="java.util.Map" map="true">
 			<!-- Levels -->
-			<map><key type="str">1070100</key><value type="str">Sprite</value></map>
-			<map><key type="str">1070200</key><value type="str">Sprite</value></map>
-			<map><key type="str">1070300</key><value type="str">Sprite</value></map>
+			<map><key type="str">1070001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1070101</key><value type="str">Sprite</value></map>
+			<map><key type="str">1070201</key><value type="str">Sprite</value></map>
 			
 			<!-- Buildings -->
 			<map><key type="str">1060001</key><value type="str">Sprite</value></map>
 			<map><key type="str">1060002</key><value type="str">Sprite</value></map>
+			<map><key type="str">1060003</key><value type="str">Sprite</value></map>
+			<map><key type="str">1060004</key><value type="str">Sprite</value></map>
+			<map><key type="str">1060005</key><value type="str">Sprite</value></map>
+			<map><key type="str">1060006</key><value type="str">Sprite</value></map>
 			
 			<!-- Items -->
 			<map><key type="str">1050001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050002</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050101</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050694</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050705</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050706</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050709</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050716</key><value type="str">Sprite</value></map>
+			<map><key type="str">1050717</key><value type="str">Sprite</value></map>
 			
 			<!-- Lives -->
-			<map><key type="str">1040001</key><value type="str">Sprite</value></map>
+			<!-- Hero -->
+			<map><key type="str">1011001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1011002</key><value type="str">Sprite</value></map>
+			
+			<map><key type="str">1014001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014002</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014003</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014004</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014005</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014006</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014007</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014008</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014009</key><value type="str">Sprite</value></map>
+			<map><key type="str">1014010</key><value type="str">Sprite</value></map>
+			
+			<!-- Neutral -->
+			<map><key type="str">1015001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1015002</key><value type="str">Sprite</value></map>
 			
 			<!-- Cards -->
 			<map><key type="str">1020001</key><value type="str">Sprite</value></map>
@@ -23,16 +52,122 @@
 			<map><key type="str">1020003</key><value type="str">Sprite</value></map>
 			<map><key type="str">1020004</key><value type="str">Sprite</value></map>
 			<map><key type="str">1020005</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020006</key><value type="str">Sprite</value></map>
 			<map><key type="str">1020007</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020008</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020009</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020010</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020011</key><value type="str">Sprite</value></map>
-			<map><key type="str">1020012</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020015</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020016</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020019</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020020</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020021</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020022</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020023</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020024</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020025</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020026</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020027</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020028</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020039</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020040</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020041</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020042</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020043</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020046</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020048</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020050</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020052</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020053</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020054</key><value type="str">Sprite</value></map>
+			
+			
+			<!-- 职业 法 -->
+			<map><key type="str">1020202</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020223</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020236</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020237</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020241</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020247</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020251</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020253</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020255</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020258</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020263</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020267</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020271</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020272</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020273</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020274</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020282</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020283</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020284</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020285</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020286</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020287</key><value type="str">Sprite</value></map>
+			
+			<!-- 法装备 -->
+			
+			<!-- 职业 战 -->
+			
+			
+			<!-- 职业 牧 -->
+			<map><key type="str">1020401</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020402</key><value type="str">Sprite</value></map>
+			
+			<!-- 职业 巫 -->
+			
+			
+			<!-- 职业 贼 -->
+			<map><key type="str">1020611</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020620</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020629</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020633</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020634</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020637</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020638</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020640</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020646</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020647</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020648</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020649</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020651</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020652</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020658</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020661</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020673</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020674</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020675</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020676</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020677</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020701</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020702</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020718</key><value type="str">Sprite</value></map>
+			<map><key type="str">1020720</key><value type="str">Sprite</value></map>
+			
+			
+			<map><key type="str">1020801</key><value type="str">Sprite</value></map>
+			
+			<map><key type="str">1029001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029101</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029106</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029108</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029109</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029111</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029113</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029115</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029120</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029121</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029123</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029125</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029127</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029153</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029154</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029156</key><value type="str">Sprite</value></map>
+			<map><key type="str">1029157</key><value type="str">Sprite</value></map>
+			
+			<!-- Skills -->
 			
 			<!-- Intents -->
-			<map><key type="str">1030012</key><value type="str">Sprite</value></map>
+			
+			<!-- Stories -->
+			<map><key type="str">1095001</key><value type="str">Sprite</value></map>
 			
 			<!-- Tips -->
 			<map><key type="str">501</key><value type="str">Sprite</value></map>
@@ -43,9 +178,159 @@
 			<map><key type="str">506</key><value type="str">Sprite</value></map>
 			<map><key type="str">507</key><value type="str">Sprite</value></map>
 			<map><key type="str">508</key><value type="str">Sprite</value></map>
+			<map><key type="str">509</key><value type="str">Sprite</value></map>
+			<map><key type="str">510</key><value type="str">Sprite</value></map>
+			<map><key type="str">511</key><value type="str">Sprite</value></map>
+			
+			<!-- RuneTypes -->
+			<map><key type="str">224</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120001</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120002</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120003</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120004</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120005</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120006</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120007</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120008</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120009</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120110</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120120</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120130</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120140</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120150</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120210</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120220</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120230</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120240</key><value type="str">Sprite</value></map>
+			<map><key type="str">1120250</key><value type="str">Sprite</value></map>
+			
+			<!-- Particle -->
+			<map><key type="str">1150622</key><value type="str">Sprite</value></map>
+			<map><key type="str">1150634</key><value type="str">Sprite</value></map>
+			
+			<!-- Talent -->
+			<map><key type="str">1160201</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160202</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160203</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160204</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160205</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160206</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160601</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160602</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160603</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160604</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160605</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160606</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160711</key><value type="str">Sprite</value></map>
+			<map><key type="str">1160713</key><value type="str">Sprite</value></map>
+			
+			<!-- Other -->
+			<map><key type="str">1950001</key><value type="str">Sprite</value></map>
+			
+			<!-- PlayerTemplate -->
+			<map><key type="str">1011001</key><value type="str">PlayerTemplate</value></map>
+			<map><key type="str">1011002</key><value type="str">PlayerTemplate</value></map>
+			
+			<!-- EnemyTemplate -->
+			<map><key type="str">1014001</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014002</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014003</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014004</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014005</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014006</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014007</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014008</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014009</key><value type="str">EnemyTemplate</value></map>
+			<map><key type="str">1014010</key><value type="str">EnemyTemplate</value></map>
+			
+			<!-- LevelLibrary -->
+			<map><key type="str">Levels</key><value type="str">LevelLibrary</value></map>
+			
+			<!-- GroundLibrary -->
+			<map><key type="str">Grounds1070101</key><value type="str">GroundLibrary</value></map>
+			
+			<!-- BuildingLibrary -->
+			<map><key type="str">Buildings</key><value type="str">BuildingLibrary</value></map>
+			
+			<!-- LifeLibrary -->
+			<map><key type="str">Heroes</key><value type="str">LifeLibrary</value></map>
+			<map><key type="str">Elites</key><value type="str">LifeLibrary</value></map>
+			<map><key type="str">Enemies</key><value type="str">LifeLibrary</value></map>
+			
+			<!-- ItemLibrary -->
+			<map><key type="str">General</key><value type="str">ItemLibrary</value></map>
+			<map><key type="str">Items1011001</key><value type="str">ItemLibrary</value></map>
+			<map><key type="str">Items1011002</key><value type="str">ItemLibrary</value></map>
+			<map><key type="str">Items1011143</key><value type="str">ItemLibrary</value></map>
+			<map><key type="str">Items1011144</key><value type="str">ItemLibrary</value></map>
+			
+			<!-- TalentLibrary -->
+			<map><key type="str">Talents1011001</key><value type="str">TalentLibrary</value></map>
+			<map><key type="str">Talents1011002</key><value type="str">TalentLibrary</value></map>
+			
+			<!-- SkillLibrary -->
+			<map><key type="str">SkillLibrary</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1011001</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1011002</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014001</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014002</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014003</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014004</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014005</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014006</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014007</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014008</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014009</key><value type="str">SkillLibrary</value></map>
+			<map><key type="str">Skills1014010</key><value type="str">SkillLibrary</value></map>
+			
+			<!-- Decks -->
+			<map><key type="str">CardLibrary</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">EnemyPassive</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Assassin</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Runes</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Combat</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Magic</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Priest</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1221001</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1221002</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1221003</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1191001</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1191002</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1191003</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1231001</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1231002</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1200001</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1200101</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1014001</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1014002</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1014003</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1014004</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Deck1014006</key><value type="str">CardLibrary</value></map>
+			
+			<!-- Limit -->
+			<map><key type="str">LimitCardCanBePlayed</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitCardCanBePlayedForPower</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitSkillCanBeConjured</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitDefend</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitDraw</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitGainMana</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitGainPowers</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitChangePowers</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitGainVigour</key><value type="str">LimitCardLibrary</value></map>
+			<map><key type="str">LimitMove</key><value type="str">LimitCardLibrary</value></map>
+			
+			<!-- Particles -->
+			<map><key type="str">ParticleLibrary</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1011001</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1011002</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1014001</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1014002</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1014003</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1014004</key><value type="str">ParticleLibrary</value></map>
+			<map><key type="str">Particles1014006</key><value type="str">ParticleLibrary</value></map>
 			
 			<!-- default -->
-			<map><key type="str">CardLibrary</key><value type="str">CardLibrary</value></map>
+			<map><key type="str">Data/Intents/IntentConfig</key><value type="str">IntentConfiguration</value></map>
 		</assets>
 	</preload>
 </list>

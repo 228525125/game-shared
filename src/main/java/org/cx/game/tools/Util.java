@@ -11,6 +11,8 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.cx.game.card.server.PowerType;
+
 public class Util {
 
 	/**
@@ -345,6 +347,38 @@ public class Util {
     		return false;
     	else
     		return true;
+    }
+    
+    public static boolean isPowerType(String str) {
+    	if("Anger".equals(str) || "Will".equals(str) || "Fast".equals(str) || "Wisdom".contentEquals(str)) {
+    		return true;
+    	}
+    	return false;
+    }
+    
+    public static PowerType parse(String str) {
+    	PowerType type = null;
+    	switch (str) {
+		case "Anger":
+			type = PowerType.Anger;
+			break;
+
+		case "Fast":
+			type = PowerType.Fast;
+			break;
+			
+		case "Will":
+			type = PowerType.Will;
+			break;
+			
+		case "Wisdom":
+			type = PowerType.Wisdom;
+			break;
+		default:
+			break;
+		}
+    	
+    	return type;
     }
     
     //---------------------Ground---------------------------

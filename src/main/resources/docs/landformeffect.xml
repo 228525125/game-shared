@@ -2,6 +2,7 @@
 	<landformeffect type="org.cx.game.card.dao.domain.LandformEffect">
 		<id type="long">1</id>
 		<effects type="java.util.HashMap" interface="java.util.Map" map="true">
+			<!--                 地形                                             移动类型_消耗 -->
 			<map><key type="int">401</key><value type="str">141_1,40_1</value></map>
 		</effects>
 	</landformeffect>

@@ -1,78 +1,140 @@
 <list> <!-- 规则1、一个Tag只能对应一个Category -->
-	<tags>	
-		<!-- 提示类型  -->
-		<category key="tishi" description="提示类型" code="1012">
-			<tag key="rukou" description="入口" code="501">
-				<object code="1060001"></object>
-			</tag>
-			<tag key="jiesuogongju" description="解锁工具" code="502"></tag>
-			<tag key="diren" description="敌人" code="503">
-				<object code="1040001"></object>
-			</tag>
-			<tag key="xianjing" description="陷阱" code="504"></tag>
-			<tag key="weixian" description="危险" code="505"></tag>
-			<tag key="ditu" description="地图" code="506"></tag>
-			<tag key="huifu" description="恢复HP" code="507">
-				<object code="1050001"></object>
-			</tag>
-			<tag key="mudidi" description="目标位置" code="508">
-				<object code="1060002"></object>
-			</tag>
-		</category>
+	<tags>
 		<category key="zhiye" description="职业" code="1006">
 			<tag key="zhanshi" description="战士" code="301">
-				<object code="1011002"></object>
+
 			</tag>
 			<tag key="fashi" description="法师" code="302">
+				<!-- Lives -->
 				<object code="1011001"></object>
 			</tag>
 			<tag key="mushi" description="牧师" code="303">
+				<object code="1020401"></object>
 			</tag>
 			<tag key="shengqishi" description="圣骑士" code="304">
 			</tag>
 			<tag key="gongjianshou" description="弓箭手" code="305">
 			</tag>
 			<tag key="cike" description="刺客" code="306">
+				<object code="1011002"></object>
 			</tag>
 		</category>
-		<category key="kapaileixing" description="卡牌类型" code="1013">
-			<tag key="jichu" description="基础" code="131">
-				<object code="1020001"></object>
-				<object code="1020002"></object>
-				<object code="1020003"></object>
-				<object code="1020004"></object>
-				<object code="1020005"></object>
-				<object code="1020006"></object>
-				<object code="1020007"></object>
-				<object code="1020008"></object>
-				<object code="1020009"></object>
-				<object code="1020010"></object>
-				<object code="1020011"></object>
-				<object code="1020012"></object>
-			</tag>
-			<tag key="zhiye" description="职业" code="132">
-			</tag>
-			<tag key="yingxiong" description="英雄" code="133">
-			</tag>
-		</category>
-		<category key="yingxiong" description="英雄" code="1014">
-			<tag key="wizard" description="巫师" code="1011001">
-			</tag>
-			<tag key="Demon" description="恶魔" code="1011002">
-			</tag>
-		</category>
-		<category key="gongneng" description="卡牌功能分类" code="1005">
-			<tag key="gongji" description="攻击" code="201">
-				<object code="1020001"></object>
-				<object code="1020008"></object>
-				<object code="1020009"></object>
-			</tag>
-			<tag key="zhuangbei" description="装备" code="202">
-				
-			</tag>
+		
+		<category key="gongneng" description="功能分类" code="1005">
 			<tag key="xianjing" description="陷阱" code="203">
+				<object code="1020215"></object>
+				<object code="1020303"></object>
 				
+				<!-- skill -->
+				<object code="1080304"></object><object code="1020304"></object>
 			</tag>
+		</category>
+		
+		<!-- 
+		<category key="buffgongneng" description="Buff功能" code="1020">
+			<tag key="xianzhichupai" description="限制出牌" code="801">
+				<object code="1030016"></object>
+			</tag>
+			<tag key="xianzhijineng" description="限制技能" code="802">
+				<object code="1030016"></object>
+			</tag>
+			<tag key="xianzhiyidong" description="限制移动" code="803">
+				<object code="1030015"></object>
+				<object code="1030016"></object>
+			</tag>
+			<tag key="xianzhijineng" description="限制抽牌" code="804">
+				<object code="1030016"></object>
+			</tag>
+			<tag key="xianzhijineng" description="限制行动" code="806">
+				<object code="1030306"></object>
+			</tag>
+		</category>
+		 -->
+		
+		<category key="yuansu" description="元素" code="1017">
+			<tag key="huo" description="火" code="601">
+				<object code="1020202"></object>
+				<object code="1020210"></object>
+				<object code="1020211"></object>
+				<object code="1020223"></object>
+			</tag>
+			<tag key="shui" description="水" code="602">
+				<object code="1020210"></object>
+				<object code="1020212"></object>
+			</tag>
+			<tag key="feng" description="雷" code="603">
+				<object code="1020210"></object>
+				<object code="1020213"></object>
+			</tag>
+			<tag key="du" description="毒" code="604"></tag>
+			<tag key="ziyan" description="自然" code="605"></tag>
+			<tag key="shensheng" description="神圣" code="606"></tag>
+			<tag key="heian" description="暗黑" code="607"></tag>
+		</category>
+		
+		<category key="shuxinggongjileixing" description="属性攻击类型" code="1018">
+			<tag key="huo" description="火" code="701">
+				<object code="1030203"></object>
+				<object code="1020211"></object>
+				<object code="1020224"></object><object code="1020225"></object><object code="1020226"></object>
+				<object code="1020228"></object><object code="1020229"></object><object code="1020230"></object>
+				<object code="1020232"></object><object code="1020233"></object><object code="1020234"></object>
+			</tag>
+			<tag key="shui" description="水" code="702">
+				<object code="1020212"></object>
+			</tag>
+			<tag key="feng" description="雷" code="703">
+				<object code="1020213"></object>
+			</tag>
+			<tag key="du" description="毒" code="704"></tag>
+			<tag key="ziyan" description="自然" code="705"></tag>
+			<tag key="shensheng" description="神圣" code="706"></tag>
+			<tag key="heian" description="暗黑" code="707"></tag>
+		</category>
+		
+		<!-- 提示类型  -->
+		<category key="tishi" description="提示类型" code="1012">
+			<tag key="rukou" description="入口" code="501">
+				<object code="1060001"></object>
+				<object code="1060002"></object>
+			</tag>
+			<tag key="jiesuogongju" description="解锁工具" code="502"></tag>
+			<tag key="diren" description="敌人" code="503">
+				<object code="1014001"></object>
+				<object code="1014002"></object>
+				<object code="1014003"></object>
+			</tag>
+			<tag key="xianjing" description="陷阱" code="504"></tag>
+			<tag key="weixian" description="危险" code="505"></tag>
+			<tag key="ditu" description="地图" code="506"></tag>
+			<tag key="huifu" description="恢复HP" code="507">
+				<object code="1050101"></object>
+			</tag>
+			<tag key="mudidi" description="目标位置" code="508">
+			</tag>
+			<tag key="npc" description="NPC" code="509">
+				<object code="1015001"></object>
+				<object code="1015002"></object>
+			</tag>
+			<tag key="jianzhuwu" description="建筑物" code="510">
+				<object code="1060004"></object>
+			</tag>
+			<tag key="chuansongmen" description="传送门" code="511">
+				<object code="1060003"></object>
+			</tag>
+		</category>
+		
+		<category key="wupinleixing" description="物品类型" code="1016">
+			<tag key="daoju" description="材料" code="141">
+				<object code="1050002"></object>
+			</tag>
+			<tag key="zhuangbei" description="装备" code="142">
+				<object code="1050694"></object>
+			</tag>
+			<tag key="daoju" description="道具" code="143">
+				<object code="1050101"></object>
+			</tag>
+			<tag key="renwu" description="任务" code="144"></tag>
 		</category>
 	</tags>
 </list>

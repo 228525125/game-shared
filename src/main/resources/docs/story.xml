@@ -1,0 +1,176 @@
+<list>
+	<story type="org.cx.game.card.dao.domain.story.Story">
+		<id type="long">1090001</id>
+		<type type="int">0</type>     <!-- Main, Branch, Achievement,ToFight -->
+		<title type="str">启程</title>
+		<publisher type="long">1015001</publisher>
+		<requirements type="java.util.ArrayList" interface="java.util.List" collection="true">
+			<!-- 
+			<requirement type="org.cx.game.card.dao.domain.story.TaskRequirement">
+				<tasks type="java.util.ArrayList" interface="java.util.List" collection="true">
+					<id type="long">1090002</id>
+				</tasks>
+			</requirement>
+			 -->
+		</requirements>
+		<content type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map>
+				<key type="int">1</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">1</key>
+						<value type="str">{#1015001#} ： 你好，冒险者！我是这个村的牧师，你能帮我拿回一个{#1050101#}吗？</value>		
+					</map>
+				</value>
+			</map>
+			<map>
+				<key type="int">2</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">0</key> <!-- 对应 StoryActionState -->
+						<value type="str">{#1015001#} ： 还没拿回来吗？{$Bom$}</value>
+					</map>
+					<map>
+						<key type="int">1</key>
+						<value type="str">{#1015001#} ： 谢谢，你救了我一个朋友的命，我欠你一个人情！</value>
+					</map>
+				</value>
+			</map>
+			<map>
+				<key type="int">3</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">1</key>
+						<!-- <value type="str">{#1015001#} ： 这是给你的奖励，请收下！{@1050101*2@}</value> -->
+						<value type="str">{#1015001#} ： 这是给你的奖励，请收下！{$Items$}</value>		
+					</map>
+				</value>
+			</map>
+		</content>
+		<actions type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="int">1</key>
+				<value type="org.cx.game.card.dao.domain.story.TakeStory">
+					<id type="long">1015001</id>
+				</value>
+			</map>
+			<map><key type="int">2</key>
+				<value type="org.cx.game.card.dao.domain.story.LookForItem">
+					<bom type="java.util.HashMap" interface="java.util.Map" map="true">
+						<map><key type="long">1050101</key><value type="int">1</value></map>
+					</bom>
+				</value>
+			</map>
+			<map><key type="int">3</key>
+				<value type="org.cx.game.card.dao.domain.story.GainItem">
+					<actionnow type="bool">true</actionnow>
+					<items type="java.util.HashMap" interface="java.util.Map" map="true">
+						<map><key type="long">1050002</key><value type="int">100</value></map>
+					</items>
+				</value>
+			</map>
+		</actions>
+	</story>
+	 
+	<story type="org.cx.game.card.dao.domain.story.Story">
+		<id type="long">1095001</id>
+		<type type="int">2</type>
+		<title type="str">首战告捷</title>
+		<publisher type="long">0</publisher>
+		<content type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map>
+				<key type="int">1</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">0</key>
+						<value type="str">干掉一个敌人！{$Bom$}</value>
+					</map>
+					<map>
+						<key type="int">1</key>
+						<value type="str">恭喜您，拿到成就首战告捷！</value>		
+					</map>
+					<map>
+						<key type="int">2</key>
+						<value type="str">成就首战告捷，已达成！</value>		
+					</map>
+				</value>
+			</map>
+			<map>
+				<key type="int">2</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">1</key>
+						<value type="str">奖励：{$Items$}</value>
+					</map>
+				</value>
+			</map>
+		</content>
+		<actions type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map><key type="int">1</key>
+				<value type="org.cx.game.card.dao.domain.story.KillEnemy">
+					<bom type="java.util.HashMap" interface="java.util.Map" map="true">
+						<map><key type="long">1014001</key><value type="int">1</value></map>
+					</bom>
+				</value>
+			</map>
+			<map><key type="int">2</key>
+				<value type="org.cx.game.card.dao.domain.story.GainItem">
+					<actionnow type="bool">true</actionnow>
+					<items type="java.util.HashMap" interface="java.util.Map" map="true">
+						<map><key type="long">1050002</key><value type="int">100</value></map>
+					</items>
+				</value>
+			</map>
+		</actions>
+	</story>
+	
+	<story type="org.cx.game.card.dao.domain.story.Story">
+		<id type="long">1091001</id><publisher type="long">1014002</publisher>
+		<content type="java.util.HashMap" interface="java.util.Map" map="true"><map><key type="int">1</key><value type="java.util.HashMap" interface="java.util.Map" map="true"><map><key type="int">1</key>
+		<value type="str">{#1014002#} ： 你要打架吗！！！</value></map></value></map></content>
+		<actions type="java.util.HashMap" interface="java.util.Map" map="true"><map><key type="int">1</key><value type="org.cx.game.card.dao.domain.story.ToFight"></value></map></actions>
+	</story>
+	
+	<story type="org.cx.game.card.dao.domain.story.Story">
+		<id type="long">1091002</id><publisher type="long">1014003</publisher>
+		<content type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map>
+				<key type="int">1</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">1</key>
+						<value type="str">{#1014003#} ： 打劫！！！要么交赎金，要么拿命来！</value>
+					</map>
+				</value>
+			</map>
+			<map>
+				<key type="int">2</key>
+				<value type="java.util.HashMap" interface="java.util.Map" map="true">
+					<map>
+						<key type="int">0</key>
+						<value type="str">{#1014003#} ： 嘿嘿！交不起赎金，就别怪我不客气了！！！</value>
+					</map>
+					<map>
+						<key type="int">1</key>
+						<value type="str">{#1014003#} ： 谢谢您的慷慨解囊！！！</value>
+					</map>
+				</value>
+			</map>
+		</content>
+		<actions type="java.util.HashMap" interface="java.util.Map" map="true">
+			<map>
+				<key type="int">1</key>
+				<value type="org.cx.game.card.dao.domain.story.ToExtort">
+					<ransom type="int">300</ransom>
+				</value>
+			</map>
+			<map>
+				<key type="int">2</key>
+				<value type="org.cx.game.card.dao.domain.story.ToRansom">
+					<actionnow type="bool">true</actionnow>
+				</value>
+			</map>
+		</actions>
+	</story>
+	
+	
+</list>

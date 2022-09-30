@@ -1,20 +1,101 @@
 <list>
 	<message type="org.cx.game.card.dao.domain.Message">
 		<id type="long">1</id>
-		<language>zh_CN</language>
+		<language type="str">zh_CN</language>
 		<message type="java.util.HashMap" interface="java.util.Map" map="true">
 			<map><key type="str">TestValidator</key><value type="str">测试验证器成功！</value></map>
-			<map><key type="str">Spell_1</key><value type="str">光明符文</value></map>
-			<map><key type="str">Hero_1011001</key><value type="str">Wizard</value></map>
-			<map><key type="str">Hero_1011002</key><value type="str">Demon</value></map>
-			<map><key type="str">Item_1050001</key><value type="str">金币</value></map>
-			<map><key type="str">Item_1050002</key><value type="str">灰烬</value></map>
-			<map><key type="str">Potion_1050101</key><value type="str">治疗药水</value></map>
+			
+			<!-- Power -->
+			<!-- 
+			<map><key type="str">Anger</key><value type="str">愤怒</value></map>
+			<map><key type="str">Will</key><value type="str">精神</value></map>
+			<map><key type="str">Fast</key><value type="str">活力</value></map>
+			<map><key type="str">Wisdom</key><value type="str">法力</value></map>
+			 -->
+			 
+			<map><key type="str">156</key><value type="str">力量</value></map>
+			<map><key type="str">157</key><value type="str">体力</value></map>
+			<map><key type="str">158</key><value type="str">速度</value></map>
+			<map><key type="str">159</key><value type="str">智力</value></map>
+			
+			<map><key type="str">125</key><value type="str">愤怒</value></map>
+			<map><key type="str">126</key><value type="str">精神</value></map>
+			<map><key type="str">127</key><value type="str">活力</value></map>
+			<map><key type="str">128</key><value type="str">法力</value></map>
+			
+			<!-- Hero -->
+			<map><key type="str">1011001</key><value type="str">Magee</value></map>
+			<map><key type="str">1011002</key><value type="str">Deviace</value></map>
+			
+			<!-- Card --> <!-- 卡牌配置信息仍然是中文，方便配置 
+			<map><key type="str">1020654.name</key><value type="str">背刺1</value></map>
+			-->
+			
+			<!-- Life -->
+			<map><key type="str">1014001</key><value type="str">Demon</value></map>
+			<map><key type="str">1014002</key><value type="str">学徒</value></map>
+			<map><key type="str">1014003</key><value type="str">强盗</value></map>
+			
+			<!-- Neutral -->
+			<map><key type="str">1015001</key><value type="str">牧师</value></map>
+			<map><key type="str">1015002</key><value type="str">商贩</value></map>
+			
+			<!-- Item -->
+			<map><key type="str">1050001</key><value type="str">金币</value></map>
+			<map><key type="str">1050002</key><value type="str">原石</value></map>
+			<map><key type="str">1050101</key><value type="str">治疗药水</value></map>
+			<map><key type="str">1050694</key><value type="str">暗影披风</value></map>
+			
+			<!-- Building -->
+			<map><key type="str">1060001</key><value type="str">入口</value></map>
+			<map><key type="str">1060002</key><value type="str">出口</value></map>
+			<map><key type="str">1060003</key><value type="str">传送门</value></map>
+			<map><key type="str">1060004</key><value type="str">指示牌</value></map>
+			
+			<!-- Tips -->
+			<map><key type="str">501</key><value type="str">通道</value></map>
+			<map><key type="str">502</key><value type="str">钥匙</value></map>
+			<map><key type="str">503</key><value type="str">使徒</value></map>
+			<map><key type="str">504</key><value type="str">陷阱</value></map>
+			<map><key type="str">505</key><value type="str">危险</value></map>
+			<map><key type="str">506</key><value type="str">地图</value></map>
+			<map><key type="str">507</key><value type="str">治疗</value></map>
+			<map><key type="str">508</key><value type="str">目的地</value></map>
+			<map><key type="str">509</key><value type="str">任务</value></map>
+			<map><key type="str">510</key><value type="str">建筑</value></map>
+			<map><key type="str">511</key><value type="str">传送门</value></map>
+			
+			<!-- keyword -->
+			<map><key type="str">1110101</key><value type="str">材料</value></map>
+			<map><key type="str">1110102</key><value type="str">任务</value></map>
+			
+			<!-- Msg -->
+			<map><key type="str">mianyi</key><value type="str">免疫</value></map>
+			<map><key type="str">shanbi</key><value type="str">闪避</value></map>
+			<map><key type="str">chuandai</key><value type="str">穿戴</value></map>
+			<map><key type="str">xiexia</key><value type="str">卸下</value></map>
+			<map><key type="str">zhuang</key><value type="str">装</value></map>
+			<map><key type="str">zhuangbei</key><value type="str">装备</value></map>
+			<map><key type="str">goumai</key><value type="str">购买</value></map>
+			<map><key type="str">tijiao</key><value type="str">提交</value></map>
+			<map><key type="str">queding</key><value type="str">确定</value></map>
+			<map><key type="str">quxiao</key><value type="str">取消</value></map>
+			
+			<!-- Runes -->
+			<map><key type="str">1120001</key><value type="str">火焰</value></map>
+			<map><key type="str">1120002</key><value type="str">火魂</value></map>
+			<map><key type="str">1120003</key><value type="str">燃烧</value></map>
+			<map><key type="str">1120004</key><value type="str">流星</value></map>
+			<map><key type="str">1120005</key><value type="str">匕首</value></map>
+			<map><key type="str">1120006</key><value type="str">钱袋</value></map>
+			<map><key type="str">1120007</key><value type="str">卡牌</value></map>
+			<map><key type="str">1120008</key><value type="str">暗影</value></map>
+			
 		</message>
 	</message>
 	<message type="org.cx.game.card.dao.domain.Message">
 		<id type="long">2</id>
-		<language>en_US</language>
+		<language type="str">en_US</language>
 		<message type="java.util.HashMap" interface="java.util.Map" map="true">
 			<map><key type="str">TestValidator</key><value type="str">The test was successful!</value></map>
 		</message>
