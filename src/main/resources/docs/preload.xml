@@ -15,7 +15,7 @@
 			<map><key type="str">1060005</key><value type="str">Sprite</value></map>
 			<map><key type="str">1060006</key><value type="str">Sprite</value></map>
 			
-			<!-- Items -->
+			<!-- Items --> 
 			<map><key type="str">1050001</key><value type="str">Sprite</value></map>
 			<map><key type="str">1050002</key><value type="str">Sprite</value></map>
 			<map><key type="str">1050101</key><value type="str">Sprite</value></map>
@@ -226,6 +226,25 @@
 			
 			<!-- Other -->
 			<map><key type="str">1950001</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/BlueCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/BlueCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/BrownCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/BrownCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/CyanCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/CyanCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/Glow</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/Glow2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/GreenCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/GreenCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/GreyCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/GreyCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/PurpleCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/PurpleCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/RedCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/RedCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/YellowCard</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/YellowCard2</key><value type="str">Sprite</value></map>
+			<map><key type="str">Sprites/Cards/Mask</key><value type="str">Sprite</value></map>
 			
 			<!-- PlayerTemplate -->
 			<map><key type="str">1011001</key><value type="str">PlayerTemplate</value></map>

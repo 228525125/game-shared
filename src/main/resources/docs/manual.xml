@@ -35,7 +35,7 @@
 			<map><key type="str">LivesPath</key><value type="str">Data/Lives/</value></map>
 			<map><key type="str">ItemsPath</key><value type="str">Data/Items/</value></map>
 			<map><key type="str">PlayersPath</key><value type="str">Data/Players/</value></map>
-			<map><key type="str">EnemiesPath</key><value type="str">Data/Players/</value></map>
+			<map><key type="str">EnemiesPath</key><value type="str">Data/Enemies/</value></map>
 			<map><key type="str">CardsPath</key><value type="str">Data/Cards/</value></map>
 			<map><key type="str">TalentsPath</key><value type="str">Data/Talents/</value></map>
 			<map><key type="str">DecksPath</key><value type="str">Data/Decks/</value></map>
